@@ -1,0 +1,130 @@
+#content {
+    width: 100%;
+}
+#content_tit {
+    width: 1300px;
+    height: 215px;
+    margin: 0 auto;
+}
+.headtit {
+    color: #112233;
+    font-size: 52px;
+    margin-top: 70px;
+}
+#content_tit p span {
+    display: inline-block;
+    width: 1100px;
+}
+.s_tit {
+    color: #112233;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.s_tit span{
+    display: inline-block;
+    width: 1100px;
+    line-height: 30px;
+}
+#introduce {
+    width: auto;
+}
+#introduce_inner {
+    width: 1300px;
+    height: 860px;
+    margin: 0 auto;
+}
+.introd_pic1{
+    width: 320px;
+    height: 650px;
+    margin-top: 90px;
+}
+.introd_pic1 img {
+    width: 320px;
+    height: 650px;
+}
+.col1{
+    width: 700px;
+    height: 710px;
+    float: right;
+    margin-right: 300px;
+}
+.col1_inner {
+    width: 680px;
+    height: 560px;
+}
+.col1_tit {
+    font-size: 32px;
+    color: #123;
+    margin-top: 80px;
+}
+.col1_tit span {
+    display: inline-block;
+    width: 600px;
+}
+.col1_tit2 {
+    margin-top: 30px;
+    color: rgba(17,34,51,.8);
+    font-size: 18px;
+    line-height: 1.6;
+}
+.introd_pic2 {
+    position: relative;
+}
+.intr_pic3 {
+    position: absolute;
+    left: 180px;
+    top: 70px;
+}
+.introd_pic2 img {
+    width: 320px;
+    height: 650px;
+    animation-name: gide2;
+    animation-duration: 4s;
+    animation-duration: leaner;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    }
+    
+    @-webkit-keyframes gide2 {
+    0% {
+        opacity: 0;
+        left: 30px;
+    }
+    
+    100% {
+        opacity: 1;
+        bottom: 30px;
+    }
+    }
+
+.intr_pic1 {
+    animation-name: gide1;
+    animation-duration: 4s;
+    animation-duration: leaner;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    }
+    
+    @-webkit-keyframes gide1 {
+    0% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+    }
+    .col2 {
+        margin-left: 80px;
+    }
+
+
+
+
+
+
+
+
+
