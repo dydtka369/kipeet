@@ -10,9 +10,12 @@
     <link rel="stylesheet" href="./css/login.css">
     <link rel="stylesheet" href="./css/footer.css">
     
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
     <script src="./js/jquery-3.6.3.min.js"></script>
-    <script src="./js/index.js"></script>
+    <script src="./js/login.js"></script>
     <title>투핏</title>
+    
+  
 </head>
 
 <body>
@@ -52,10 +55,11 @@
                 </h3>
                 <div class="login_btn2">
                     <div class="btn_inner">
-                        <a href="#">
-                            <img src="./images/kko.png" alt="kka">
+                        <a href="javascript:kakaoLogin()">
+                            <img class="kko" src="./images/kko.png" alt="kka">
                             <span>카카오 로그인</span>
                         </a>
+                        <a href="javascript:secession()">로그아웃</a>
                     </div>
                 </div>
                 <div class="login_btn2">

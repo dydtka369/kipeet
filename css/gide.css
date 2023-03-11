@@ -120,9 +120,128 @@
         margin-left: 80px;
     }
 
+.gide_title {
+    width: 1300px;
+    height: 340px;
+    margin: 0 auto;
+}
+.gtit1  {
+    display: inline-block;
+    width: 1200px;
+    font-size: 52px;
+    color: #123;
+    margin-bottom: 25px;
+}
+.gide_title p span {
+    display: inline-block;
+    width: 1300px;
+    color: rgba(17,34,51,.8);
+    font-size: 18px;
+}
+.gide_title a{
+    display: block;
+    margin: 20px 0;
+    width: 260px;
+    height: 52px;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    background: #123;
+    color: #fff;
+    box-shadow: 0 8px 16px rgb(0 0 0 / 20%);
+    border-radius: 50px;
+    text-decoration: none;
+}
+.mainFQA {
+    width: auto;
+    margin-top: 30px;
+}
+.fqa_contant {
+    width: 1300px;
+    height: 500px;
+    margin: auto;
+}
+.fqa_contant h4{
+    font-weight: 600;
+    font-size: 20px;
+    color: #123;
+}
+.mainFQA li a{
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    font-weight: 600; 
+}
+.mainFQA li .answe{
+    display: none;
+    margin: 15px;
+    padding: 15px;
+    font-size: 16px;
+    background: #f5f5f5;
+    border-radius: 6px;
+}
 
-
-
+.mainFQA li .answe2{
+    display: none;
+    margin: 15px;
+    padding: 15px;
+    font-size: 16px;
+    background: #f5f5f5;
+    border-radius: 6px;
+}
+.mainFQA li .answe3{
+    display: none;
+    margin: 15px;
+    padding: 15px;
+    font-size: 16px;
+    background: #f5f5f5;
+    border-radius: 6px;
+}
+.mainFQA li .answe4{
+    display: none;
+    margin: 15px;
+    padding: 15px;
+    font-size: 16px;
+    background: #f5f5f5;
+    border-radius: 6px;
+}
+.mainFQA li .answe5{
+    display: none;
+    margin: 15px;
+    padding: 15px;
+    font-size: 16px;
+    background: #f5f5f5;
+    border-radius: 6px;
+}
+.selected:hover {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.selected2:hover {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.selected3:hover {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.selected4:hover {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.selected5:hover {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
 
 
 

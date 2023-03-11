@@ -14,4 +14,41 @@ $(function(){
              $('.intr_pic3').css('animation-name','none')
          }
     })
-});
+    let index;
+    $('.selected').click(function(){
+        $('.answe2').slideUp()
+        $('.answe3').slideUp()
+        $('.answe4').slideUp()
+        $('.answe5').slideUp()
+        $('.answe').slideToggle('slow')
+    })
+    $('.selected2').click(function(){
+        $('.answe2').slideToggle('slow')
+        $('.answe').slideUp()
+        $('.answe3').slideUp()
+        $('.answe4').slideUp()
+        $('.answe5').slideUp()
+    })
+    $('.selected3').click(function(){
+        $('.answe3').slideToggle('slow')
+        $('.answe').slideUp()
+        $('.answe2').slideUp()
+        $('.answe4').slideUp()
+        $('.answe5').slideUp()
+    })
+    $('.selected4').click(function(){
+        $('.answe4').slideToggle('slow')
+        $('.answe').slideUp()
+        $('.answe2').slideUp()
+        $('.answe3').slideUp()
+        $('.answe5').slideUp()
+    })
+    $('.selected5').click(function(){
+        $('.answe5').slideToggle('slow')
+        $('.answe').slideUp()
+        $('.answe2').slideUp()
+        $('.answe3').slideUp()
+        $('.answe4').slideUp()
+    })
+    
+    })
