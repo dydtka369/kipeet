@@ -12,7 +12,7 @@ window.Kakao.init('0850eafbca907dd881e8620df6f527ac');
                         console.log(kakao_account)
                     }
                 });
-                window.location.href='http://127.0.0.1:5500/login.html' //리다이렉트 되는 코드
+                window.location.href='http://127.0.0.1:5500/kakaoindex.html' //리다이렉트 되는 코드
             },
             fail: function(error) {
                 console.log(error);
@@ -26,7 +26,7 @@ function secession() {
     	url: '/v1/user/unlink',
     	success: function(response) {
     		console.log(response);
-    		//callback(); //연결끊기(탈퇴)성공시 서버에서 처리할 함수
+    		// callback(); //연결끊기(탈퇴)성공시 서버에서 처리할 함수
     		window.location.href='/'
     	},
     	fail: function(error) {
@@ -35,4 +35,6 @@ function secession() {
     	},
 	});
 };
+
+
     
