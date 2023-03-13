@@ -5,7 +5,7 @@ function secession() {
     	success: function(response) {
     		console.log(response);
             window.location.href='http://127.0.0.1:5500/index.html'
-			window.location.href='http://192.168.4.43:5500/index.html'
+			// window.location.href='http://192.168.4.43:5500/index.html'
     		//callback(); //연결끊기(탈퇴)성공시 서버에서 처리할 함수
     	},
     	fail: function(error) {
