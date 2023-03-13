@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <!-- <link rel="stylesheet" href="./css/index.css"> -->
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/bulletin.css">
+    <script src="./js/jquery-3.6.3.min.js"></script>
+    <!--<script src="./js/index.js"></script>-->
+    <title>투핏</title>
+    <style>
+       
+
+    </style>
+    <script>
+        /*window.onload=function(){
+            let title=document.querySelector("img#like");
+            title.addEventListener("click",function(){
+                'p#like'.innerHTML="p + 1";
+            });
+        }*/
+
+        $(function(){
+        
+            $('.tip_main').slideDown(500);
+
+            /*$('#like_img').on('click','#like_p',function(){
+                let number=$('#like_p').html();
+                $('#like_p').append(number + 1);
+            });*/
+            /*$('#like_img').click(function(){
+                let number=$('#like_p').html();
+                let evalText= number + 1;
+                eval(evalText);
+            });*/
+            let count=document.getElementById('#like_p');
+            $('#like_img').on('click',function(){
+                count=count+1;
+                $('#like_p').html(function(html){
+                    return count;
+                });
+            });
+
+            $('.a').click(function(){
+                $('#tip').removeClass('.dn');
+                $('#check').addClass('.dn');
+            });
+            $('.b').click(function(){
+                $('#check').removeClass('.dn');
+                $('#tip').addClass('.dn');
+            });
+            
+            $('#with_bg>div').hover(function(){
+                $('#with_bg>div>img').animate({
+                    opacity: 0.2
+                },1000),
+                $(this).addClass('bg_ch'),
+                $('#with_bg>div>a').fadeIn();
+            },function(){
+                $('#with_bg>div>img').animate({
+                    opacity: 1
+                },1000),
+                $(this).removeClass('bg_ch'),
+                $('#with_bg>div>a').fadeOut().stop();
+            });
+
+            /*$('#with_bg>div>img').hover(function(){
+                $(this).css({opacity:0.7});
+            },function(){
+                $(this).css({
+                    opacity: 1
+                });
+            });*/
+        });
+
+        /*var count='#like_p';
+        var countUp=function(){
+            count = count+1;
+            document.querySelector('#like_p').innerText=count;
+        }*/
+
+        window.onload = function () {
+            let count=document.getElementById('#eye_p');
+            let count2=document.getElementById('#like_p');
+            let like_img=document.querySelectorAll('#like_img');
+            let link=document.querySelectorAll('.tip_main>ul>li>a');
+            like_img.onclick=function(){
+                count2++;
+                document.querySelector('#like_p').innerText=count2;
+            }
+            link.onclick=function(){
+                count++;
+                document.querySelector('#eye_p').innerText=count;
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+    <!-- header 시작 -->
+    <header>
+        <div id="head_inner">
+            <nav>
+                <h1>
+                    <a href="./index.html"> <img src="./images/logo.svg" alt="로고"></a>
+                </h1>
+                <div class="gnb_inner">
+                    <ul>
+                        <li><a href="#">키핏코치</a></li>
+                        <li><a href="#">피트니스</a></li>
+                        <li><a href="#">키핏 쇼핑몰</a></li>
+                        <li><a href="#">키핏 소통</a></li>
+                        <li><a href="#">마이페이지</a></li>
+                        <li><a href="#">이용가이드</a></li>
+                    </ul>
+                </div>
+                <div class="login_btn">
+                    <ul>
+                        <li><a href="#">회원가입</a></li>
+                        <li><a href="#">로그인</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- header 종료 -->
+    <div id="content">
+        <div id="tip">
+            <ul id="nab">
+                <li ><a href="#tip" class="a">꿀팁공유</a></li>
+                <li ><a href="#check" class="b">오.운.완</a></li>
+                <li class="c"><a href="#with">식품공구</a></li>
+            </ul>
+            <div class="bg">
+                <img class="tip_bg" src="" alt="">
+            </div>
+            <div class="hd"></div>
+            <div class="tip_main">
+                <p class="write">
+                    <a href="#">+글쓰기</a>
+                </p>
+                <ul>
+                    <li>
+                        <a href="#" target="_blank">
+                            팔굽혀펴기 올바른 자세
+                        </a>
+                        <img id="eye" src="img/eye.png" alt="조회수" width="50">
+                        <p id="eye_p">67</p>
+                        <img id="like_img" src="img/good_b.png" alt="좋아요" width="35">
+                        <p id="like_p">17</p>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            닭가슴살 촉촉하게 삶는 법
+                        </a>
+                        <img id="eye" src="img/eye.png" alt="조회수" width="50">
+                        <p id="eye_p">30</p>
+                        <img id="like_img" src="img/good_b.png" alt="좋아요" width="35">
+                        <p id="like_p">30</p>
+                        
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            몸이 가장 잘 풀리는 전신 스트레칭
+                        </a>
+                        <img id="eye" src="img/eye.png" alt="조회수" width="50">
+                        <p id="eye_p">55</p>
+                        <img id="like_img" src="img/good_b.png" alt="좋아요" width="35">
+                        <p id="like_p">42</p>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            배에만 힘주는 꿀팁
+                        </a>
+                        <img id="eye" src="img/eye.png" alt="조회수" width="50">
+                        <p id="eye_p">67</p>
+                        <img id="like_img" src="img/good_b.png" alt="좋아요" width="35" >
+                        <p id="like_p">67</p>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            제대로 된 코치 고르기
+                        </a>
+                        <img id="eye" src="img/eye.png" alt="조회수" width="50">
+                        <p id="eye_p">43</p>
+                        <img id="like_img" src="img/good_b.png" alt="좋아요" width="35">
+                        <p id="like_p">20</p>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            언제까지 작심삼일 할꺼야~
+                        </a>
+                        <img id="eye" src="img/eye.png" alt="조회수" width="50">
+                        <p id="eye_p">90</p>
+                        <img id="like_img" src="img/good_b.png" alt="좋아요" width="35">
+                        <p id="like_p">10</p>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            러닝하기 좋은 스팟
+                        </a>
+                        <img id="eye" src="img/eye.png" alt="조회수" width="50">
+                        <p id="eye_p">120</p>
+                        <img id="like_img" src="img/good_b.png" alt="좋아요" width="35">
+                        <p id="like_p">100</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="check"  class="dn">
+            <ul id="nab">
+                <li ><a href="#tip" class="a">꿀팁공유</a></li>
+                <li><a href="#check"  class="b">오.운.완</a></li>
+                <li class="c"><a href="#with">식품공구</a></li>
+            </ul>
+            <div id="check_bg">
+                <p class="group"><그룹1 - 도봉구 헬린이들></p>
+                <div class="calender">
+                    <p class="food">식단</p>
+                    <input type="file" class="file">
+                    <p class="work">운동 리스트</p>
+                    <input type="text" class="text">
+                    <button type="submit">등록</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<div id="with">
+        <ul id="nab">
+            <li class="a"><a href="#tip">꿀팁공유</a></li>
+            <li class="b"><a href="#check">오.운.완</a></li>
+            <li class="c"><a href="#with">식품공구</a></li>
+        </ul>
+        <div id="with_bg">
+            <div>
+                <img src="img/허닭_케이준.jpg" alt="케이준" width="350px" height="300px">
+                <a class="look" target="blank" href="http://www.heodak.com/shop/shopdetail.html?branduid=1111732&xcode=027&mcode=001&scode=&type=X&sort=sellcnt&cur_code=027001&GfDT=aG93UQ%3D%3D">
+                    <p class="look">상품보기</p>
+                </a>
+                <a class="buy" href="">
+                    <p class="buy">구매하기</p>
+                </a>
+            </div>
+            <div>
+                <img src="img/맛있닭_볼_마늘.jpg" alt="마늘" width="350px" height="300px">
+                <a class="look" target="blank" href="https://www.rankingdak.com/product/view?productCd=11440">
+                    <p class="look">상품보기</p>
+                </a>
+                <a class="buy" href="">
+                    <p class="buy">구매하기</p>
+                </a>
+            </div>
+            <div>
+                <img src="img/아임닭_크리스피.jpg" alt="크리스피" width="350px" height="300px">
+                <a class="look" target="blank" href="https://imdak.com/product/%EC%95%84%EC%9E%84%EB%8B%AD-%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%94%BC-%EB%8B%AD%EA%B0%80%EC%8A%B4%EC%82%B4-%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90-10203050%ED%8C%A9/4653/category/227/display/1/">
+                    <p class="look">상품보기</p>
+                </a>
+                <a class="buy" href="">
+                    <p class="buy">구매하기</p>
+                </a>
+            </div>
+            <div>
+                <img src="img/햇살닭_훈제_1kg.jpg" alt="훈제" width="350px" height="300px">
+                <a class="look" target="blank" href="https://www.hsdak.com/goods/goods_view.php?goodsNo=1000000001">
+                    <p class="look">상품보기</p>
+                </a>
+                <a class="buy" href="">
+                    <p class="buy">구매하기</p>
+                </a>
+            </div>
+            <div>
+                <img src="img/스팀_고추.jpg" alt="고추" width="350px" height="300px">
+                <a class="look" target="blank" href="http://www.heodak.com/shop/shopdetail.html?branduid=1111723&xcode=027&mcode=001&scode=&type=X&sort=sellcnt&cur_code=027001&GfDT=bm16W1U%3D">
+                    <p class="look">상품보기</p>
+                </a>
+                <a class="buy" href="">
+                    <p class="buy">구매하기</p>
+                </a>
+            </div>
+            <div>
+                <img src="img/바르닭_칠리.jpg" alt="칠리" width="350px" height="300px">
+                <a class="look" target="blank" href="https://barudak.co.kr/product/%EC%8A%A4%ED%8C%80-%EB%8B%AD%EA%B0%80%EC%8A%B4%EC%82%B4-%EC%B9%A0%EB%A6%AC-5102030%ED%8C%A9/968/category/260/display/1/">
+                    <p class="look">상품보기</p>
+                </a>
+                <a class="buy" href="">
+                    <p class="buy">구매하기</p>
+                </a>
+            </div>
+        </div>-->
+    </div>
+
+    <!-- footer 시작 -->
+    <footer>
+        <div id="footer_top">
+            <div class="footrt_inner">
+                <h2><a href="/index.html"><img src="./images/logo.svg" alt="logo"></a></h2>
+                <ul>
+                    <li><a href="#">키핏 코치</a></li>
+                    <li><a href="#">피트니스</a></li>
+                    <li><a href="#">키핏 쇼핑물</a></li>
+                    <li><a href="#">키핏 소통</a></li>
+                    <li><a href="#">마이페이지</a></li>
+                    <li><a href="#">이용가이드</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer_main">
+            <div class="footer_menu">
+                <ul>
+                    <li><a href="#">© keepfit.co.kr</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보 처리 방침</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_copy">
+            <span>콘텐츠웨이브 주식회사</span>
+            <span>콘텐츠웨이브 주식회사</span>
+            <span>고객센터 1599-3709 (평일 09:00~18:00 / 점심시간 12:00~13:00 / 주말 및 공휴일 휴무)</span>
+            <br>
+            <span>사업자등록번호 220-88-38020</span>
+            <span>호스팅서비스제공자 : 마이크로소프트 유한회사, 구글클라우드코리아 유한회사, 아마존웹서비시즈코리아 유한회사</span>
+            <br>
+            <address>서울특별시 영등포구 여의나루로 60 포스트타워 19층</address>
+        </div>
+    </footer>
+</body>
+
+</html>

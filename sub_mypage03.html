@@ -7,9 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/register.css">
+    <link rel="stylesheet" href="./css/sub_mypage03.css">
     <link rel="stylesheet" href="./css/footer.css">
-
     <script src="./js/jquery-3.6.3.min.js"></script>
     <script src="./js/index.js"></script>
     <title>투핏</title>
@@ -43,37 +42,60 @@
         </div>
     </header>
     <!-- header 종료 -->
-    <div id="content">
-        <div class="content_inner">
-            <img src="./images/regist.svg" alt="회원가입">
-            <h5>일반 회원 가입</h5>
-            <h6>
-                <span class="reg_t1">오늘부터,</span>
-                <span class="reg_t2">함께 키핏!</span>
-            </h6>
-            <p>5초만에 간편가입~</p>
-            <a href="#" class="btnkaka">
-                <img src="./images/kko.png" alt="kko">
-                <span>
-                    카카오 계속하기
-                </span>
-            </a>
-            <a href="#" class="btnkaka">
-                <img src="./images/kko.png" alt="kko">
-                <span>
-                    카카오 계속하기
-                </span>
-            </a>
-            <br>
-            <br>
-            <br>
-            <p class="hint">
-                이미 회원이시라면
-                <a href="./login.html">로그인</a>
-                하세요!
-            </p>
 
-        </div>
+    <div id="content">
+        <section class="mypage_head">
+            <h1>MY PAGE</h1>
+            <ul>
+                <li><a href="sub_mypage01.html">예약내역</a></li>
+                <li><a href="sub_mypage02.html">결제내역</a></li>
+                <li class="present_page"><a href="sub_mypage03.html">프로필</a></li>
+            </ul>
+        </section>
+        <section class="mypage_membership profile_info">
+            <h2>회원 정보</h2>
+            <div class="contain">
+                <img src="./images/mainCover.jpg" alt="프로필 이미지">
+                <ul>
+                    <li>이름</li>
+                    <li>닉네임</li>
+                    <li>0000년 00월 00일 &#40;만 00세&#41;</li>
+                </ul>
+                <p><a href="#">회원 정보 수정 &gt;</a></p>
+            </div>
+        </section>
+        <section class="mypage_fitnessInfo profile_info">
+            <h2>피트니스 정보</h2>
+            <div class="contain">
+                <ul class="contain_title">
+                    <li>목표</li>
+                    <li>피트니스 센터</li>
+                </ul>
+                <ul class="contain_info">
+                    <li>다이어트</li>
+                    <li>00 피트니스</li>
+                </ul>
+                <p><a href="#">피트니스 정보 등록 &gt;</a></p>
+            </div>
+        </section>
+        <section class="mypage_inbody profile_info">
+            <h2>인바디 정보</h2>
+            <div class="contain">
+                <ul class="contain_title">
+                    <li>체중</li>
+                    <li>골격근량</li>
+                    <li>체징방률</li>
+                    <li>BMI</li>
+                </ul>
+                <ul class="contain_info">
+                    <li>00 kg</li>
+                    <li>00 kg</li>
+                    <li>00 %</li>
+                    <li>00 kg</li>
+                </ul>
+                <p><a href="#">인바디 등록 &gt;</a></p>
+            </div>
+        </section>
     </div>
 
     <!-- footer 시작 -->

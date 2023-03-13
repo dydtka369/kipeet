@@ -11,7 +11,7 @@ body {
 
 #main {
     width: 100%;
-    height: 630px;
+    height: 650px;
     
     /* background-image: url(/-topeet-main-master/images/1img.jpeg);
     background-repeat: no-repeat;
@@ -26,8 +26,8 @@ body {
     height: 650px;
 }
 .video_in{
-    width: 100%;
     height: 700px;
+    width: 100%;
     object-fit: cover;
 }
 
@@ -194,7 +194,7 @@ body {
     position: relative;
     margin: 0 auto;
     max-width: 1300px;
-    height: 500px;
+    height: 520px;
     width: 1300px;
     background: rgba(17, 34, 51, .85);
     overflow: hidden;
@@ -706,7 +706,6 @@ body {
     width: 100%;
     height: 890px;
     background-image: url(/images/2im.jpeg);
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
