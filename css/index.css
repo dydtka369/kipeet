@@ -708,6 +708,7 @@ body {
     background-image: url(/images/2im.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 .program_inner {
     width: 1300px;
