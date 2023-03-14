@@ -12,8 +12,10 @@ window.Kakao.init('0850eafbca907dd881e8620df6f527ac');
                         console.log(kakao_account)
                     }
                 });
-                window.location.href='http://127.0.0.1:5500/kakaoindex.html' //리다이렉트 되는 코드
-                window.location.href='http://192.168.4.43:5500/kakaoindex.html'
+                // window.location.href='http://192.168.209.101:5500/index.html'
+                // window.location.href='http://127.0.0.1:5500/kakaoindex.html' //리다이렉트 되는 코드
+                window.location.href='http://192.168.209.101:5500/kakaoindex.html'
+                
             },
             fail: function(error) {
                 console.log(error);
