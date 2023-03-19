@@ -7,15 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/kitregister.css">
     <link rel="stylesheet" href="./css/footer.css">
     
-    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
     <script src="./js/jquery-3.6.3.min.js"></script>
-    <script src="./js/login.js"></script>
+    <script src="./js/kitresister.js"></script>
+    <script src="./js/index.js"></script>
     <title>투핏</title>
-    
-  
 </head>
 
 <body>
@@ -45,38 +43,32 @@
     </header>
     <!-- header 종료 -->
     <div id="content">
-        <div class="login">
-            <div class="login_inner">
-                <h3>
-                    <img src="./images/login.svg" alt="login">
-                    오늘도 함께 키핏!
-                </h3>
-                <div class="login_btn2">
-                    <div class="btn_inner">
-                        <a id="kakao-login-btn" href="javascript:kakaoLogin()">
-                            <img class="kko" src="./images/kko.png" alt="kka">
-                            <span>카카오 로그인</span>
-                        </a>
-                    </div>
+        <div class="content_inner">
+            <form action="doJoin" method="POST" class="joinForm" onsubmit="DoJoinForm__submit(this); return false;">
+                <h2>회원가입</h2>
+                <div class="textForm">
+                  <input name="loginId" type="text" class="id" placeholder="아이디">
                 </div>
-                <div class="login_btn2">
-                    <div class="btn_inner">
-                        <a href="./kitlogin.html">
-                            <img src="./images/kko.png" alt="kka">
-                            <span>키핏 로그인</span>
-                        </a>
-                    </div>
+                <div class="textForm">
+                  <input name="loginPw" type="password" class="pw" placeholder="비밀번호">
                 </div>
-                <br>
-                <br>
-                <br>
-                <br>
-                <span class="keepfit_login">
-                    키핏 전용 로그인하기
-                    <br>
-                    <a href="./kitlogin.html">키핏 로그인</a>
-                </span>
-            </div>
+                <div class="textForm">
+                  <input name="loginPwConfirm" type="password" class="pw" placeholder="비밀번호 확인">
+                </div>
+                <div class="textForm">
+                  <input name="name" type="password" class="name" placeholder="이름">
+                </div>
+                <div class="textForm">
+                  <input name="email" type="text" class="email" placeholder="이메일">
+                </div>
+                <div class="textForm">
+                  <input name="nickname" type="text" class="nickname" placeholder="닉네임">
+                </div>
+                <div class="textForm">
+                  <input name="cellphoneNo" type="number" class="cellphoneNo" placeholder="전화번호">
+                </div>
+                <input type="submit" onclick="return validateForm()" class="btn" value="회원가입"/>
+              </form>
         </div>
     </div>
     

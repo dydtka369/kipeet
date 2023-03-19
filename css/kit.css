@@ -66,6 +66,7 @@
     margin: 15px 0 0 23px;
 }
 .login_button {
+    cursor: pointer;
     color: #fff;
     background-color: #174cc8;
     font-size: 16px;
