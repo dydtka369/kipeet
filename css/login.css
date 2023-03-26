@@ -38,6 +38,9 @@
 .btn_inner {
     text-align: center;
 }
+.btn_inner2 {
+    text-align: center;
+}
 .btn_inner a{
     display: inline-block;
     color: #3c1e1e;
@@ -49,6 +52,18 @@
     font-size: 15px;
     transition: all .5s;
     margin-right: 280px;
+}
+.btn_inner2 a{
+    display: inline-block;
+    font-weight: 600;
+    padding: 15px 50px;
+    border-color: #fee500;
+    background: #123;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: all .5s;
+    margin-right: 280px;
+    color: #fff;
 }
 .btn_inner a img {
     width: 16px;
