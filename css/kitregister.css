@@ -109,6 +109,7 @@ h2 {
   left:40%;
   transform: translateX(-50%);
   margin-bottom: 40px;
+  margin-top: 20px;
   width:80%;
   height:40px;
   background: linear-gradient(125deg,#81ecec,#6c5ce7,#81ecec);
@@ -124,4 +125,13 @@ h2 {
 
 .btn:hover {
   background-position: right;
+}
+.joinForm p {
+   color: #636e72;
+}
+
+.joinForm label {
+  color: #636e72;
+    font-size: 16px;
+    height: 25px;
 }
