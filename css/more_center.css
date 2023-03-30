@@ -1,6 +1,9 @@
+h1,h2,p,span,em,li,a,button{
+    font-family: 'Pretendard-Regular';
+}
+
 #content {
     width: 1300px;
-    
     margin: 0 auto;
 }
 #wrap{
@@ -9,7 +12,7 @@
     margin: 0 auto;
     top: 50px;
     overflow: hidden;
-    height: 2300px;
+    height: 2350px;
 }
 .animation_canvas{
     position: relative; 
@@ -97,9 +100,9 @@
 
 .sec_introduce{
     position: relative;
-    width: 692px;
+    width: 1300px;
     height: 380px;
-    margin-top: 200px;
+    margin-top: 240px;
 }
 
 .coach_box>li{
@@ -115,12 +118,14 @@
 }
 .coach_name{
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 600;
     margin-top: 15px;
+    font-weight: 600;
 }
 .coach_inst{
     font-size: 12px;
     margin-top: 20px;
+    font-weight: 500;
     
 }
 .coach_box img{
@@ -136,7 +141,7 @@
 }
 .offline>h2{
     color: #265F88;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 20px;
 }
 .offline>span{
@@ -144,11 +149,12 @@
     color: #6b6b6b;
     top: 10px;
     font-size: 12px;
+    font-weight: 400;
 }
 .order_box2{
     position: relative;
-    width: 635px;
-    height: 65px;
+    width: 1300px;
+    height: 85px;
     border: 1px solid #cccccc;
     border-radius: 5px;
     margin-top: 20px;
@@ -162,26 +168,28 @@
 .num_count{
     position: absolute;
     border: 1px solid #97CD6D;
-    width: 37px;
-    height: 25px;
+    width: 50px;
+    height: 35px;
     padding: 5px 5px;
     border-radius: 5px;
     text-align: center;
-    top: 20px;
+    top: 23px;
 }
 .num_count p{
     color: #7bb44f;
-    font-size: 12px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 3px 3px;
 }
 .order_box_t{
     position: relative;
-    left: 50px;
+    left: 80px;
+    top: 5px;
 }
 #price{
     position: relative;
-    bottom: 17px;
-    left: 370px;
+    bottom: 10px;
+    left: 400px;
     font-size: 14px;
 
 }
@@ -191,24 +199,27 @@
 }
 #small_span{
     font-size: 14px;
+    font-weight: 500;
 }
 .go_order{
     position: absolute;
     border: 1px solid #265F88;
     border-radius: 3px;
-    width: 82px;
-    height: 35px;
+    width: 125px;
+    height: 45px;
     text-align: center;
-    padding-top: 10px;
-    right: 10px;
-    bottom: 15px;
+    padding-top: 15px;
+    right: 30px;
+    bottom: 20px;
     color: #969696;
-    font-size: 12px;
+    font-size: 14px;
     transition: all 0.4s;
+    font-weight: 600;
 }
 .go_order:hover{
     background-color:#265F88;
     color: #fff;
+    font-weight: 700;
 }
 /*오른쪽 구역 시작*/
 .second_section{
@@ -216,6 +227,7 @@
     width: 549px;
     top: 120px;
     right: 302px;
+    height: 1500px;
 }
 .r_introduce{
     position: absolute;
@@ -335,6 +347,7 @@
     font-size: 18px;
     padding: 30px 0 0 30px;
     line-height: 25px;
+    font-weight: 500;
 }
 
 .see_more a{
@@ -349,7 +362,7 @@
     background-color: #265F88;
     text-align: center;
     border: none;
-    font-weight: bold;
+    font-weight: 700;
     padding-top: 18px;
     transition: all 0.5s;
 }
