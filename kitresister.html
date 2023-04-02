@@ -46,6 +46,9 @@
         <div class="content_inner">
             <form action="doJoin" method="POST" class="joinForm" onsubmit="DoJoinForm__submit(this); return false;">
                 <h2>회원가입</h2>
+                <p>일반 회원인가요? 코치 회원 인가요?</p>
+                <label><input type="radio" name="color" value="0"> 일반회원</label>
+                <label><input type="radio" name="color" value="1"> 코치회원</label>
                 <div class="textForm">
                   <input name="loginId" type="text" class="id" placeholder="아이디">
                 </div>
@@ -70,9 +73,6 @@
                 <div class="textForm">
                     <input name="address" type="text" class="address" placeholder="주소">
                   </div>
-                  <p>일반 회원인가요? 코치 회원 인가요?</p>
-                  <label><input type="radio" name="color" value="0"> 일반회원</label>
-                  <label><input type="radio" name="color" value="1"> 코치회원</label>
                 <input type="submit" onclick="return validateForm()" class="btn" value="회원가입"/>
               </form>
         </div>
