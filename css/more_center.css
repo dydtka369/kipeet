@@ -186,18 +186,18 @@ h1,h2,p,span,em,li,a,button{
     left: 80px;
     top: 5px;
 }
-#price{
+.price{
     position: relative;
     bottom: 10px;
     left: 400px;
     font-size: 14px;
 
 }
-#big_span{
+.big_span{
     font-weight: bold;
     font-size: 16px;
 }
-#small_span{
+.small_span{
     font-size: 14px;
     font-weight: 500;
 }
