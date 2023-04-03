@@ -1,0 +1,155 @@
+a{
+    cursor: pointer;
+    color: #354F68;
+}
+#content {
+    width:1300px;
+    margin: 0 auto;
+    position: relative;
+    height: auto;
+}
+
+#tip{
+    width:1300px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 70px;
+}
+h2{
+    position: relative;
+    margin: 0 auto;
+    border-bottom: 1px solid #354F68;
+    width: 220px;
+    height:  70px;
+    text-align: center;
+    font-size: 30pt;
+    line-height: 70px;
+}
+#tip .bg{
+    width: 100%;
+    height: 450px;
+    border-radius: 3px;
+    position: relative;
+    margin-top: 40px;
+    background: url("./img/bg.jpg") repeat-x;
+    background-size: auto 100%;
+}
+
+/*#tip ul li.a{
+    background-color: #354F68;
+}
+#tip ul li.a a{
+    color: #ffff;
+}*/
+
+#tip .hd{
+    position: relative;
+    width: 88%;
+    height: 70px;
+    background-color: #3a3a3a;
+    opacity: 0.95;
+    border-radius: 3px;
+    top: -150px;
+    z-index: 10;
+    margin: 0 auto;
+}
+
+#tip .tip_main{
+    width: 82%;
+    height: 70%;
+    margin: 0 auto;
+    position: relative;
+    top: -150px;
+    background-color: #cdcdcd;
+    opacity: 0.95;
+    border-radius: 2px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.f_option{
+    margin: 0 auto;
+    left: 140px;
+    position: relative;
+    width:58%;
+    margin-bottom: 10px;
+}
+select{
+    height: 40px;
+    font-size: 16px;
+    margin-right: 5px;
+}
+.f_option img{
+    width:30px;
+    position: relative;
+    top: 7px;
+    margin-right: 5px;
+}
+.f_option .del{
+    width: 35px;
+    top: 8px;
+}
+
+form{
+    margin: 0 auto;
+    position: relative;
+    width:85%;
+    
+}
+table{
+    position: relative;
+    width:100%;
+}
+
+td{
+    position: relative;
+    margin: 5px;
+}
+
+.label{
+    border: 1px solid black;
+    background-color: #3a3a3a;
+    color: #ffff;
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+}
+.content_l{
+    height: 500px;
+    line-height: 500px;
+}
+
+.put{
+    width: 600px;
+    height: 50px;
+}
+
+input{
+    position: absolute;
+    right: 0;
+    width: 630px;
+    height: 50px;
+    right: 0;
+}
+.file{
+    width: 630px;
+    height: 50px;
+    font-size: 17px;
+    line-height: 55px;
+}
+textarea{
+    position: absolute;
+    width: 630px;
+    height: 500px;
+    right: 1px;
+}
+
+.submit{
+    position: absolute;
+    width: 80px;
+    height : 40px;
+    font-size: 17px;
+    right: 0px;
+}

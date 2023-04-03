@@ -1,0 +1,153 @@
+a{
+    cursor: pointer;
+    color: #354F68;
+}
+#content {
+    width:1300px;
+    margin: 0 auto;
+    position: relative;
+    height: auto;
+}
+
+#tip{
+    width:1300px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 70px;
+}
+h2{
+    position: relative;
+    margin: 0 auto;
+    border-bottom: 1px solid #354F68;
+    width: 120px;
+    height:  70px;
+    text-align: center;
+    font-size: 30pt;
+    line-height: 70px;
+}
+#tip .bg{
+    width: 100%;
+    height: 450px;
+    border-radius: 3px;
+    position: relative;
+    margin-top: 40px;
+    background: url("./img/bg.jpg") repeat-x;
+    background-size: auto 100%;
+}
+
+/*#tip ul li.a{
+    background-color: #354F68;
+}
+#tip ul li.a a{
+    color: #ffff;
+}*/
+
+#tip .hd{
+    position: relative;
+    width: 88%;
+    height: 70px;
+    background-color: #3a3a3a;
+    opacity: 0.95;
+    border-radius: 3px;
+    top: -150px;
+    z-index: 10;
+    margin: 0 auto;
+}
+.write a{
+    position: absolute;
+    height: 70px;
+    line-height: 70px;
+    right: 20px;
+    color: #ffff;
+    font-size: 22pt;
+}
+#tip .tip_main{
+    display: none;
+    width: 82%;
+    height: 70%;
+    margin: 0 auto;
+    position: relative;
+    top: -150px;
+    background-color: #cdcdcd;
+    opacity: 0.95;
+    border-radius: 2px;
+    padding-bottom: 30px;
+}
+.tip_main ul{
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.tip_main li{
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 88%;
+    height: 65px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    line-height: 65px;
+    position: relative;
+}
+.tip_main ul li a{
+    position: absolute;
+    width: 360px;
+    height: 65px;
+    line-height: 65px;
+    font-size: 16pt;
+    padding-left: 10px;
+    color: #3a3a3a;
+}
+#id a{
+    position: absolute;
+    right: 200px;
+}
+.tip_main ul li img, .tip_main ul li p{
+    position: absolute;
+    right: 0;
+    display: inline-block;
+}
+img#eye{
+    margin-top: 7px;
+    right: 140px;
+}
+p#eye_p{
+    line-height: 65px;
+    right: 105px;
+    height: 65px;
+    line-height: 60px;
+}
+img#like_img{
+    margin-top: 12px;
+    right: 50px;
+    z-index: 30;
+}
+p#like_p{
+    line-height: 65px;
+    right: 8px;
+    height: 65px;
+    line-height: 60px;
+}
+#tip .arrow{
+    position: absolute;
+    top: 45%;
+}
+#tip .ar_l{
+    left: 1%;
+}
+#tip .ar_r{
+    right: 1%;
+}
+#search{
+    position: relative;
+    width: 400px;
+    height: 50px;
+    left: 32%;
+    font-size: 16pt;
+    border-radius: 3px;
+    background-image: url("./img/search_icon.png") no-repeat;
+}
+#search_icon{
+    position: relative;
+    top: 20px;
+    left: 285px;
+}
