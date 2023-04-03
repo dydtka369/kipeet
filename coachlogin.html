@@ -7,15 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/kit.css">
     <link rel="stylesheet" href="./css/footer.css">
     
-    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
     <script src="./js/jquery-3.6.3.min.js"></script>
-    <script src="./js/login.js"></script>
+    <script src="./js/index.js"></script>
     <title>투핏</title>
-    
-  
 </head>
 
 <body>
@@ -45,34 +42,32 @@
     </header>
     <!-- header 종료 -->
     <div id="content">
-        <div class="login">
-            <div class="login_inner">
-                <h3>
-                    <img src="./images/login.svg" alt="login">
-                    오늘도 함께 키핏!
-                </h3>
-                <div class="login_btn2">
-                    <div class="btn_inner">
-                        <a id="kakao-login-btn" href="./kitlogin.html">
-                            <span>키핏 로그인</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="login_btn2">
-                    <div class="btn_inner2">
-                        <a href="./coachlogin.html">
-                            <span>코치 로그인</span>
-                        </a>
-                    </div>
-                </div>
-                <br>
-                <br>
-                <br>
-                <br>
-                <span class="keepfit_login">
-                    키핏에 오신것을 환영합니다.
-                </span>
+        <div class="content_inner">
+            <h3>
+                <img src="./images/logo.svg" alt="logo">
+                    <br>
+                    들어오셔서 기뻐요!
+            </h3>
+            <p>
+                키핏 코치 전용 로그인
+            </p>
+            <div class="form">
+                <label class="email">이메일</label>
+                <input id="inpud_id" type="text" class="form_id" placeholder="이메일을 입력해주세요">
             </div>
+            <div class="form_pw">
+                <label class="passward">비밀번호</label>
+                <input id="inpud_pw" type="password" class="form_pw" placeholder="비밀번호 입력해주세요">
+            </div>
+            <div class="check">
+                <input type="checkbox" class="chk" id="recheck">
+                <label class="chke" for="recheck">로그인 기억하기</label>
+            </div>
+           <a href="#"><button class="login_button" id="btn_log">로그인</button></a>
+           <a href="./kitresister.html"><button class="login_button" id="btn_log">회원가입</button></a>
+            <div class="forget_pw">
+                <a href="#">비밀번호를 잊으셨나요?</a>
+        </div>
         </div>
     </div>
     
