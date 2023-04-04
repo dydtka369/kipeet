@@ -64,15 +64,20 @@
     color: #4685c5;
 }
 
-/* calendar_info 공통 */
-.calendar_info h2 {
+/* mypage_reservation 시작 */
+.mypage_reservation {
+    width: 100%;
+    position: relative;
+    margin-top: 80px;
+}
+.mypage_reservation h2 {
     position: relative;
     font-family: "pretendard";
     color: #888;
     font-size: 20px;
     font-weight: 400;
 }
-.calendar_info p a {
+.mypage_reservation p a {
     position: absolute;
     right: 0;
     font-family: "pretendard";
@@ -80,26 +85,19 @@
     font-size: 15px;
     font-weight: 400;
 }
-.calendar_info p a:hover {
+.mypage_reservation p a:hover {
     font-weight: 600;
 }
-
-/* mypage_reservation 시작 */
-.mypage_reservation {
-    width: 100%;
-    position: relative;
-    margin-top: 80px;
-}
 .mypage_reservation .reservation_first {
-    top: 45px;
+    top: 10px;
 }
 .mypage_reservation .reservation_second {
-    top: 70px;
+    top: 35px;
 }
 
 /* mypage_calendar 시작 */
 .mypage_calendar {
     width: 100%;
     position: relative;
-    margin: 100px 0 150px;
+    margin: 50px 0 300px;
 }
