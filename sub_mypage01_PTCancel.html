@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/sub_mypage02_fitnessList.css">
+    <link rel="stylesheet" href="./css/sub_mypage01_PTCancel.css">
     <link rel="stylesheet" href="./css/footer.css">
     <script src="./js/jquery-3.6.3.min.js"></script>
     <script src="./js/index.js"></script>
@@ -44,60 +44,35 @@
     <!-- header 종료 -->
 
     <div id="content">
-        <section class="fitnessList_head">
-            <h1>피트니스 이용권 구매 내역</h1>
-            <form action="membership_search" method="get">
-                <ul>
-                    <li>기간검색</li>
-                    <li>
-                        <label for="startDate" class="blind">시작일설정</label>
-                        <input type="date" class="startDate" id="startDate">
-                        <span> &#126; </span>
-                        <label for="endDate" class="blind">종료일설정</label>
-                        <input type="date" class="endDate" id="endDate">
-                    </li>
-                    <li>
-                        <button class="choose_period">전체</button>
-                        <button class="choose_period">15일</button>
-                        <button class="choose_period">1개월</button>
-                        <button class="choose_period">3개월</button>
-                        <button class="choose_period">6개월</button>
-                    </li>
-                    <li>
-                        <button class="search_period">검색</button>
-                    </li>
-                </ul>
-            </form>
+        <section class="rvCansel_head">
+            <h1>PT 예약 취소</h1>
         </section>
-        <section class="fitnessList_body">
-            <h2 class="blind">검색된 피트니스 이용권 구매 내역</h2>
+        <section class="rvCansel_body">
+            <h2>※ 예약시간 24시간 전부터 예약취소가 불가합니다.</h2>
             <p>
-                <button class="membership_transfer">양도</button>
-                <button class="membership_refund">환불</button>
+                <button class="PTReservation_cancel">취소</button>
             </p>
             <ul class="list_head">
-                <li class="listCheckbox">
-                    <label for="membership_check"></label>
-                    <input type="checkbox" id="membership_check" class="checkAll">
+                <li class="PTCheckbox">
+                    <label for="ptRv_check"></label>
+                    <input type="checkbox" id="ptRv_check" class="checkAll">
                 </li>
-                <li class="listNumber">구매번호</li>
-                <li class="listCenter">피트니스 센터</li>
-                <li class="listMembership">구매한 이용권</li>
-                <li class="listPayment">결제 수단</li>
-                <li class="listSum">결제 금액</li>
-                <li class="listDate">결제 일시</li>
+                <li class="rvNumber">예약번호</li>
+                <li class="rvCenter">피트니스 센터</li>
+                <li class="rvMembership">구매한 이용권</li>
+                <li class="rvRemain">남은 횟수</li>
+                <li class="rvTime">예약시간</li>
             </ul>
-            <ul class="searchedList">
-                <li class="listCheckbox">
-                    <label for="membership_check"></label>
-                    <input type="checkbox" id="membership_check" class="checkIndi">
+            <ul class="reservationList">
+                <li class="PTCheckbox">
+                    <label for="ptRv_check"></label>
+                    <input type="checkbox" id="ptRv_check" class="checkIndi">
                 </li>
-                <li class="listNumber">3001</li>
-                <li class="listCenter">00피트니스센터</li>
-                <li class="listMembership">4개월 30회</li>
-                <li class="listPayment">신용카드</li>
-                <li class="listSum">1,000,000￦</li>
-                <li class="listDate">2022.12.20</li>
+                <li class="rvNumber">508770</li>
+                <li class="rvCenter">00피트니스센터</li>
+                <li class="rvMembership">4개월 30회</li>
+                <li class="rvRemain">11회</li>
+                <li class="rvTime">2022년 1월 24일 오후 7시</li>
             </ul>
             <ul class="searchedListBtn">
                 <li class="present_btn"><a href="#">1</a></li>

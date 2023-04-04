@@ -131,9 +131,87 @@
 }
 
 
-/* mypage_inbody 시작 */
-.mypage_inbody {
+/* mypage_board 시작 */
+.mypage_board {
     width: 100%;
     position: relative;
-    margin: 100px 0 150px;
+    margin: 100px 0 300px;
+}
+.mypage_board .contain_myboard {
+    position: relative;
+    width: 100%;
+}
+.mypage_board .contain_myboard li {
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+}
+.mypage_board li.myboard_title {
+    border-bottom: 3px solid #ccc;
+}
+.mypage_board .contain_myboard span {
+    display: inline-block;
+    font-family: "pretendard";
+    color: #000;
+    font-size: 15px;
+}
+.mypage_board li.myboard_title span {
+    color: #555;
+}
+.mypage_board .contain_myboard .board_no, .board_view, .board_like, .board_date {
+    text-align: center;
+}
+.mypage_board .contain_myboard .board_no {
+    width: 100px;
+}
+.mypage_board .contain_myboard .board_title {
+    width: 784px;
+}
+.mypage_board .contain_myboard .board_view {
+    width: 130px;
+}
+.mypage_board .contain_myboard .board_like {
+    width: 120px;
+}
+.mypage_board .contain_myboard .board_date {
+    width: 150px;
+}
+.mypage_board .contain_myboard .board_title a {
+    font-family: "pretendard";
+    color: #000;
+    font-size: 15px;
+}
+.mypage_board .contain_myboard .board_title a:hover {
+    font-weight: 600;
+}
+.mypage_board .contain_myboardBtn {
+    position: relative;
+    display: flex;
+    margin-top: 40px;
+}
+/* .contain_myboardBtn의 width값 설정 필요 (가운데 정렬) */
+.mypage_board .contain_myboardBtn li {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 27px;
+    border: 1px solid rgba(204,204,204,0);
+}
+.mypage_board .contain_myboardBtn a {
+    font-family: "pretendard";
+    color: #000;
+    font-size: 15px;
+}
+.mypage_board .contain_myboardBtn li.present_btn {
+    border: 1px solid rgba(204,204,204,1);
+}
+.mypage_board .contain_myboardBtn li.present_btn a {
+    color: #112233;
+    font-weight: 600;
+}
+.mypage_board .contain_myboardBtn li:hover {
+    border: 1px solid rgba(204,204,204,1);
+}
+.mypage_board .contain_myboardBtn li:not(:last-child) {
+    margin-right: 5px;
 }

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/sub_mypage03_profileModi.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <script src="./js/jquery-3.6.3.min.js"></script>
+    <script src="./js/index.js"></script>
+    <title>투핏</title>
+</head>
+
+<body>
+    <!-- header 시작 -->
+    <header>
+        <div id="head_inner">
+            <nav>
+                <h1>
+                    <a href="./index.html"> <img src="./images/logo.svg" alt="로고"></button></a>
+                </h1>
+                <div class="gnb_inner">
+                    <ul>
+                        <li><a href="#">키핏코치</a></li>
+                        <li><a href="#">피트니스</a></li>
+                        <li><a href="#">키핏 쇼핑몰</a></li>
+                        <li><a href="#">키핏 소통</a></li>
+                        <li><a href="#">마이페이지</a></li>
+                        <li><a href="#">이용가이드</a></li>
+                    </ul>
+                </div>
+                <div class="login_btn">
+                    <ul>
+                        <li><a href="#">회원가입</a></li>
+                        <li><a href="#">로그인</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- header 종료 -->
+
+    <div id="content">
+        <section class="profil_head">
+            <h1 class="blind">프로필 수정</h1>
+            <p class="proImage"><img src="./images/profie.jpg" alt="프로필 이미지"></p>
+            <p class="addImage"><button class="imageUpload"><img src="./images/picture.png" alt="프로필 이미지 수정"></button></p>
+            <span class="nickname">닉네임</span>
+        </section>
+        <section class="profile_membership profile_Modify">
+            <h2>회원 정보</h2>
+            <form action="myProfile" method="post">
+                <ul>
+                    <li>
+                        <label for="mem_id">아이디</label>
+                        <input id="mem_id" type="text" class="modifyBox" value="아이디고정" disabled>
+                    </li>
+                    <li>
+                        <label for="mem_pwd">비밀번호 <strong>&#40;영문자, 숫자, 특수문자를 포함하여 10자리 이상&#41;</strong></label>
+                        <input id="mem_pwd" type="password" class="modifyBox">
+                    </li>
+                    <li>
+                        <label for="mem_pwd">비밀번호 확인</label>
+                        <input id="mem_pwd" type="password" class="modifyBox">
+                    </li>
+                    <li>
+                        <label for="mem_name">이름</label>
+                        <input id="mem_name" type="text" class="modifyBox">
+                    </li>
+                    <li>
+                        <label for="mem_phone">휴대전화번호 <strong>&#40;숫자만 입력해 주세요.&#41;</strong></label>
+                        <input id="mem_phone" type="tel" class="modifyBox">
+                    </li>
+                    <li>
+                        <label for="mem_birth">생년월일</label>
+                        <input id="mem_birth" type="date" class="modifyBox">
+                    </li>
+                    <li>
+                        <label for="mem_email">이메일</label>
+                        <input id="mem_email" type="email" class="modifyBox">
+                    </li>
+                    <li>
+                        <!-- 카카오 주소 api 사용 -->
+                        <label for="mem_address">주소</label>
+                        <input id="mem_address" type="text" class="modifyBox">
+                    </li>
+                </ul>
+            </form>
+        </section>
+        <section class="profile_fitnessInfo profile_Modify">
+            <h2>피트니스 정보</h2>
+            <form action="myFitness">
+                <ul>
+                    <li>
+                        <label for="fitness_goal">목표</label>
+                        <select id="fitness_goal" class="modifyBox">
+                            <option value="muscle" selected>근육 강화</option>
+                            <option value="diet">다이어트</option>
+                        </select>
+                    </li>
+                    <li>
+                        <!-- PT이용권 구매와 연동 -->
+                        <label for="fitness_center">피트니스 센터</label>
+                        <input id="fitness_center" type="search" class="modifyBox" value="PT이용권 구매 피트니스센터" disabled>
+                    </li>
+                </ul>
+            </form>
+        </section>
+        <section class="profile_submit">
+            <h2 class="blind">제출 버튼</h2>
+            <ul>
+                <li>
+                    <button type="submit" class="button_cancel profile_button">취소</button>
+                </li>
+                <li>
+                    <button type="submit" class="button_modify profile_button">수정</button>
+                </li>
+            </ul>
+            <p><button class="membershipOff">회원 탈퇴</button></p>
+        </section>
+    </div>
+
+    <!-- footer 시작 -->
+    <footer>
+        <div id="footer_top">
+            <div class="footrt_inner">
+                <h2><a href="/index.html"><img src="./images/logo.svg" alt="logo"></a></h2>
+                <ul>
+                    <li><a href="#">키핏 코치</a></li>
+                    <li><a href="#">피트니스</a></li>
+                    <li><a href="#">키핏 쇼핑물</a></li>
+                    <li><a href="#">키핏 소통</a></li>
+                    <li><a href="#">마이페이지</a></li>
+                    <li><a href="#">이용가이드</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer_main">
+            <div class="footer_menu">
+                <ul>
+                    <li><a href="#">© keepfit.co.kr</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보 처리 방침</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_copy">
+            <span>콘텐츠웨이브 주식회사</span>
+            <span>콘텐츠웨이브 주식회사</span>
+            <span>고객센터 1599-3709 (평일 09:00~18:00 / 점심시간 12:00~13:00 / 주말 및 공휴일 휴무)</span>
+            <br>
+            <span>사업자등록번호 220-88-38020</span>
+            <span>호스팅서비스제공자 : 마이크로소프트 유한회사, 구글클라우드코리아 유한회사, 아마존웹서비시즈코리아 유한회사</span>
+            <br>
+            <address>서울특별시 영등포구 여의나루로 60 포스트타워 19층</address>
+        </div>
+    </footer>
+
+</body>
+
+</html>
