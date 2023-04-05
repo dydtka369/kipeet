@@ -22,7 +22,7 @@ h2{
     width: 220px;
     height:  70px;
     text-align: center;
-    font-size: 30pt;
+    font-size: 30px;
     line-height: 70px;
 }
 #tip .bg{
@@ -112,7 +112,7 @@ td{
     color: #ffff;
     width: 250px;
     height: 50px;
-    font-size: 18px;
+    font-size: 17px;
     text-align: center;
     line-height: 50px;
 }
@@ -136,7 +136,7 @@ input{
 .file{
     width: 630px;
     height: 50px;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 55px;
 }
 textarea{
