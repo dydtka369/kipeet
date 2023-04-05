@@ -15,7 +15,7 @@
 .mypage_head {
     width: 100%;
     position: relative;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .mypage_head h1 {
     position: relative;
@@ -184,34 +184,41 @@
 .mypage_board .contain_myboard .board_title a:hover {
     font-weight: 600;
 }
-.mypage_board .contain_myboardBtn {
+
+/* 페이지 버튼 */
+.pageBtn {
     position: relative;
-    display: flex;
+    text-align: center;
     margin-top: 40px;
 }
-/* .contain_myboardBtn의 width값 설정 필요 (가운데 정렬) */
-.mypage_board .contain_myboardBtn li {
+.pageBtn .ulBtn {
+    position: relative;
+    display: inline-block;
+}
+.pageBtn .ulBtn li {
+    position: relative;
+    display: inline-block;
     width: 30px;
     height: 30px;
-    text-align: center;
     line-height: 27px;
     border: 1px solid rgba(204,204,204,0);
 }
-.mypage_board .contain_myboardBtn a {
+.pageBtn .ulBtn li a {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
     font-family: "pretendard";
     color: #000;
     font-size: 15px;
 }
-.mypage_board .contain_myboardBtn li.present_btn {
+.pageBtn .ulBtn li.present_btn {
     border: 1px solid rgba(204,204,204,1);
 }
-.mypage_board .contain_myboardBtn li.present_btn a {
+.pageBtn .ulBtn li.present_btn a {
     color: #112233;
     font-weight: 600;
 }
-.mypage_board .contain_myboardBtn li:hover {
+.pageBtn .ulBtn li:hover:not(.previous_btn, .next_btn) {
     border: 1px solid rgba(204,204,204,1);
-}
-.mypage_board .contain_myboardBtn li:not(:last-child) {
-    margin-right: 5px;
 }

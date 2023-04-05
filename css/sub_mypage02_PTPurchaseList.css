@@ -20,7 +20,7 @@ button {
 .purchaseList_head {
     width: 100%;
     position: relative;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .purchaseList_head h1 {
     position: relative;
@@ -154,33 +154,39 @@ button {
 }
 
 /* 페이지 버튼 */
-.purchaseList_body .searchedListBtn {
+.pageBtn {
     position: relative;
-    display: flex;
+    text-align: center;
     margin-top: 40px;
 }
-.purchaseList_body .searchedListBtn li {
+.pageBtn .ulBtn {
+    position: relative;
+    display: inline-block;
+}
+.pageBtn .ulBtn li {
+    position: relative;
+    display: inline-block;
     width: 30px;
     height: 30px;
-    text-align: center;
     line-height: 27px;
     border: 1px solid rgba(204,204,204,0);
 }
-.purchaseList_body .searchedListBtn a {
+.pageBtn .ulBtn li a {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
     font-family: "pretendard";
     color: #000;
     font-size: 15px;
 }
-.purchaseList_body .searchedListBtn li.present_btn {
+.pageBtn .ulBtn li.present_btn {
     border: 1px solid rgba(204,204,204,1);
 }
-.purchaseList_body .searchedListBtn li.present_btn a {
+.pageBtn .ulBtn li.present_btn a {
     color: #112233;
     font-weight: 600;
 }
-.purchaseList_body .searchedListBtn li:hover {
+.pageBtn .ulBtn li:hover:not(.previous_btn, .next_btn) {
     border: 1px solid rgba(204,204,204,1);
-}
-.purchaseList_body .searchedListBtn li:not(:last-child) {
-    margin-right: 5px;
 }

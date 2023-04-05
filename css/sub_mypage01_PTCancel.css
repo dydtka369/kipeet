@@ -4,9 +4,7 @@
     font-family: "pretendard";
     src: url("../font/Pretendard/public/variable/PretendardVariable.ttf") format("truetype");
 }
-.blind {
-    display: none;
-}
+
 button {
     cursor: pointer;
 }
@@ -16,13 +14,13 @@ button {
     position: relative;
 }
 
-/* rvCansel_head 시작 */
-.rvCansel_head {
+/* rcCancel_head 시작 */
+.rcCancel_head {
     width: 100%;
     position: relative;
-    margin-top: 30px;
+    margin-top: 50px;
 }
-.rvCansel_head h1 {
+.rcCancel_head h1 {
     position: relative;
     font-family: "pretendard";
     color: #000;
@@ -32,108 +30,114 @@ button {
     height: 35px;
 }
 
-/* rvCansel_body 시작 */
-.rvCansel_body {
+/* rcCancel_body 시작 */
+.rcCancel_body {
     width: 100%;
     position: relative;
     margin: 80px 0 300px;
 }
-.rvCansel_body h2 {
+.rcCancel_body h2 {
     position: relative;
     font-family: "pretendard";
     color: #FF3333;
     font-size: 15px;
     font-weight: 400;
 }
-.rvCansel_body p {
+.rcCancel_body p {
     position: absolute;
     right: 0;
     top: 25px;
     z-index: 1000;
 }
-.rvCansel_body p button.PTReservation_cancel {
+.rcCancel_body p button.PTReservation_cancel {
     width: 70px;
     height: 30px;
     border: 1px solid #ccc;
     background-color: #112233;
     color: #fff;
 }
-.rvCansel_body ul {
+.rcCancel_body ul {
     position: relative;
     width: 100%;
     display: flex;
 }
-.rvCansel_body ul.list_head {
+.rcCancel_body ul.list_head {
     border-top: 1px solid #666;
     border-bottom: 1px solid #666;
     background-color: #F5F5F5;
     padding: 10px 0;
     margin-top: 45px;
 }
-.rvCansel_body ul.list_head li:not(:first-child):not(:last-child) {
+.rcCancel_body ul.list_head li:not(:first-child):not(:last-child) {
     border-right: 1px solid #ccc;
 }
-.rvCansel_body ul.reservationList {
+.rcCancel_body ul.reservationList {
     padding: 5px 0;
     border-bottom: 1px solid #ccc;
 }
-.rvCansel_body ul li {
+.rcCancel_body ul li {
     font-family: "pretendard";
     color: #000;
     font-size: 15px;
     font-weight: 400;
     text-align: center;
 }
-.rvCansel_body ul.list_head li, ul.reservationList li { 
+.rcCancel_body ul.list_head li, ul.reservationList li { 
     line-height: 30px;
 }
-.rvCansel_body ul li.PTCheckbox {
+.rcCancel_body ul li.PTCheckbox {
     width: 45px;
 }
-.rvCansel_body ul li.rvNumber {
+.rcCancel_body ul li.rvNumber {
     width: 135px;
 }
-.rvCansel_body ul li.rvCenter {
+.rcCancel_body ul li.rvCenter {
     width: 290px;
 }
-.rvCansel_body ul li.rvMembership {
+.rcCancel_body ul li.rvMembership {
     width: 250px;
 }
-.rvCansel_body ul li.rvRemain {
+.rcCancel_body ul li.rvRemain {
     width: 200px;
 }
-.rvCansel_body ul li.rvTime {
+.rcCancel_body ul li.rvTime {
     width: 380px;
 }
 
 /* 페이지 버튼 */
-.rvCansel_body .searchedListBtn {
+.pageBtn {
     position: relative;
-    display: flex;
+    text-align: center;
     margin-top: 40px;
 }
-.rvCansel_body .searchedListBtn li {
+.pageBtn .ulBtn {
+    position: relative;
+    display: inline-block;
+}
+.pageBtn .ulBtn li {
+    position: relative;
+    display: inline-block;
     width: 30px;
     height: 30px;
-    text-align: center;
     line-height: 27px;
     border: 1px solid rgba(204,204,204,0);
 }
-.rvCansel_body .searchedListBtn a {
+.pageBtn .ulBtn li a {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
     font-family: "pretendard";
     color: #000;
     font-size: 15px;
 }
-.rvCansel_body .searchedListBtn li.present_btn {
+.pageBtn .ulBtn li.present_btn {
     border: 1px solid rgba(204,204,204,1);
 }
-.rvCansel_body .searchedListBtn li.present_btn a {
+.pageBtn .ulBtn li.present_btn a {
     color: #112233;
     font-weight: 600;
 }
-.rvCansel_body .searchedListBtn li:hover {
+.pageBtn .ulBtn li:hover:not(.previous_btn, .next_btn) {
     border: 1px solid rgba(204,204,204,1);
-}
-.rvCansel_body .searchedListBtn li:not(:last-child) {
-    margin-right: 5px;
 }
