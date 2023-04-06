@@ -8,7 +8,7 @@ function validateForm() {
     }
     const passwordInput = document.querySelector('input[name="loginPw"]');
     const passwordValue = passwordInput.value;
-    const passwordPattern = /^(?=.*[a-zA-Z])(?=.*\d)[A-Za-z\d]{8,}$/;
+    const passwordPattern =  /^(?=.*[a-zA-Z])((?=.*\d)|(?=.*\W)).{6,20}$/;
     if (!passwordPattern.test(passwordValue)) {
       alert('비밀번호는 8자 이상, 영문과 숫자가 포함되어야 합니다.');
       return false;
