@@ -25,7 +25,7 @@
     margin:60px 75px 0 75px;
     padding-bottom:10px;
     font-size:16pt;
-    border-bottom:3px solid #5ba184;
+    border-bottom:3px solid #123;
   }
   
   .find-password-content {
@@ -39,7 +39,7 @@
   
   .find-password-div span {
     font-size:14pt;
-    color:#039b7b;
+    color:#123;
   }
   
   .find-password-content input[type=text] {
@@ -57,7 +57,7 @@
   
   .find-password-button button {
     height:33px;
-    background-color: #4CAF50;
+    background-color: #123;
     border:none;
     color:white;
     padding-left:15px;
