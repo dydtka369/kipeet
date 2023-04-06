@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/sub_indexshop.css">
+    <!-- <link rel="stylesheet" href="./css/index.css"> -->
+    <link rel="stylesheet" href="./css/footer.css">
+    <script src="./js/jquery-3.6.3.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/sub_indexshop.js"></script>
+    <title>투핏</title>
+</head>
+
+<body>
+    <!-- header 시작 -->
+    <header>
+        <div id="head_inner">
+            <nav>
+                <h1>
+                    <a href="./index.html"> <img src="./images/logo.svg" alt="로고"></a>
+                </h1>
+                <div class="gnb_inner">
+                    <ul>
+                        <li><a href="#">키핏코치</a></li>
+                        <li><a href="#">피트니스</a></li>
+                        <li><a href="#">키핏 쇼핑몰</a></li>
+                        <li><a href="#">키핏 소통</a></li>
+                        <li><a href="#">마이페이지</a></li>
+                        <li><a href="#">이용가이드</a></li>
+                    </ul>
+                </div>
+                <div class="login_btn">
+                    <ul>
+                        <li><a href="#">회원가입</a></li>
+                        <li><a href="#">로그인</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- header 종료 -->
+
+    <div class="content">
+    <!-- content 시작-->
+    
+
+    <!-- content tit 시작-->
+     <div class="content_tit">
+      <h2>
+        <a href="indexshop.html"><strong>KEEPFIT SHOP</strong></a>
+      </h2>
+      <p>🔥 WEICOME TO HELL 🔥</p>
+     </div>
+    <!-- content tit 끝-->
+
+   
+
+
+   <!-- content_slider 시작-->
+   
+   <div class="slider">
+    <input type="radio" name="slide" id="slide1" checked>
+    <input type="radio" name="slide" id="slide2">
+    <input type="radio" name="slide" id="slide3">
+    <ul id="imgholder" class="imgs">
+        <li><img src="./images/이벤트배너.jpg" alt="이벤트"></li>
+        <li><img src="./images/이벤트배너2.jpg" alt="이벤트"></li>
+        <li><img src="./images/이벤트배너3.jpg" alt="이벤트"></li>
+    </ul>
+    <div class="bullets">
+        <label for="slide1">&nbsp;</label>
+        <label for="slide2">&nbsp;</label>
+        <label for="slide3">&nbsp;</label>
+    </div>
+  </div>
+ 
+  
+  
+  
+  <!-- content_slider 끝-->
+
+
+
+
+
+
+
+ <!--content_lest 시작-->
+    <div id="content_lest">
+
+     <div id="left">
+       <img src="images/닭가슴살.jpg" alt="상세메뉴">
+       <img src="images/배송.jpg" alt="상세메뉴">
+     </div>
+      
+
+
+    <div id="right">
+
+      <h2>
+        <strong>오리지널 클래식 닭가슴살 100g</strong>
+      </h2>
+      <hr>
+
+    <ul>
+      <li>원산지 <span>국내산</span> </li>
+      <li>구매혜택 <span>488포인트 적립혜택!</span> </li>
+      <li>배송방법 <span>택배</span> </li>
+      <li>배송비무료 <span>도서상관 배송비 추가</span> </li>
+    </ul>
+
+    <div id="right_button">
+       <h3>수량</h3>
+    
+     <div class="but">
+       <button type="button" onclick="decrement()">-</button>
+       <input type="number" id="quantity" name="quantity"   onkeypress="handleKeyPress(event)" value="1" min="1">
+       <button type="button" onclick="increment()">+</button>
+       <span>가격:</span>
+       <span id="price">50,000원</span>
+     </div>
+
+    </div>
+      
+      <div id="right_button2">
+       <a href="sub_indexshop02.html" class="button1">구매하기</a>
+       <a href="sub_indexshop02.html" class="button2">장바구니</a>
+       <a href="sub_indexshop02.html" class="button2">찜</a>
+      </div>
+
+    </div>
+     
+  </div>
+   
+    
+    
+  <div id="content_lest2">
+    <hr>
+     <div id="content2_text">
+        <section id="text">
+            <h2>회원가입시 적립금 2000원 증정!</h2>
+            <h3>휴무안내</h3>
+            <P>정기배송 변경날짜는 톡톡으로 연락부탁드립니다.</P>
+        </section>
+        <img src="images/상세페이지배너2.jpg" alt="배너">
+     </div>
+
+
+     
+  </div>
+  <!--content_lest 끝-->
+
+
+
+    </div>
+  <!--content 끝-->
+
+
+
+    <!-- footer 시작 -->
+    <footer>
+        <div id="footer_top">
+            <div class="footrt_inner">
+                <h2><a href="/index.html"><img src="./images/logo.svg" alt="logo"></a></h2>
+                <ul>
+                    <li><a href="#">키핏 코치</a></li>
+                    <li><a href="#">피트니스</a></li>
+                    <li><a href="#">키핏 쇼핑물</a></li>
+                    <li><a href="#">키핏 소통</a></li>
+                    <li><a href="#">마이페이지</a></li>
+                    <li><a href="#">이용가이드</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer_main">
+            <div class="footer_menu">
+                <ul>
+                    <li><a href="#">© keepfit.co.kr</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보 처리 방침</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_copy">
+            <span>콘텐츠웨이브 주식회사</span>
+            <span>콘텐츠웨이브 주식회사</span>
+            <span>고객센터 1599-3709 (평일 09:00~18:00 / 점심시간 12:00~13:00 / 주말 및 공휴일 휴무)</span>
+            <br>
+            <span>사업자등록번호 220-88-38020</span>
+            <span>호스팅서비스제공자 : 마이크로소프트 유한회사, 구글클라우드코리아 유한회사, 아마존웹서비시즈코리아 유한회사</span>
+            <br>
+            <address>서울특별시 영등포구 여의나루로 60 포스트타워 19층</address>
+        </div>
+    </footer>
+
+</body>
+
+</html>

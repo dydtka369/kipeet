@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/insex shop.css">
+    <link rel="stylesheet" href="./css/indexshop.css">
     <!-- <link rel="stylesheet" href="./css/index.css"> -->
     <link rel="stylesheet" href="./css/footer.css">
     <script src="./js/jquery-3.6.3.min.js"></script>
@@ -23,18 +23,18 @@
                     <a href="./index.html"> <img src="./images/logo.svg" alt="로고"></a>
                 </h1>
                 <div class="gnb_inner">
-                  <ul>
-                    <li><a href="./center_main.html">피트니스</a></li>
-                    <li><a href="./indexshop.html">키핏 쇼핑몰</a></li>
-                    <li><a href="./bulletin.html">키핏 소통</a></li>
-                    <li><a href="./gide.html">이용가이드</a></li>
-                </ul>
-            </div>
-            <div class="login_btn">
-                <ul>
-                    <li><a href="./register.html">회원가입</a></li>
-                    <li><a href="./login.html">로그인</a></li>
-                </ul>
+                    <ul>
+                      <li><a href="./center_main.html">피트니스</a></li>
+                      <li><a href="./indexshop.html">키핏 쇼핑몰</a></li>
+                      <li><a href="./community.html">키핏 소통</a></li>
+                      <li><a href="./gide.html">이용가이드</a></li>
+                    </ul>
+                </div>
+                <div class="login_btn">
+                    <ul>
+                        <li><a href="#">회원가입</a></li>
+                        <li><a href="#">로그인</a></li>
+                    </ul>
                 </div>
             </nav>
         </div>
@@ -46,125 +46,151 @@
      <!-- content tit 시작-->
             <div class="content_tit">
                <h2>
-                 <strong>KEEPFIT SHOP</strong>
+                <a href="indexshop.html"><strong>KEEPFIT SHOP</strong></a>
                </h2>
                <p>🔥 WEICOME TO HELL 🔥</p>
             </div>
     <!-- content tit 끝-->
     
 
-    <!-- content_event 시작-->
-    <div id="content_event">
-        <img class="img" src="images/이벤트 배너.jpg" alt="이벤트 배너"> 
-    </div>
-    <!-- content_event 끝-->
+    <!-- content_slider 시작-->
+   
+    <div class="slider">
+      <input type="radio" name="slide" id="slide1" checked>
+      <input type="radio" name="slide" id="slide2">
+      <input type="radio" name="slide" id="slide3">
+      <ul id="imgholder" class="imgs">
+          <li><img src="images/이벤트배너.jpg" alt="이벤트"></li>
+          <li><img src="./images/이벤트배너2.jpg"  alt="이벤트"></li>
+          <li><img src="./images/이벤트배너3.jpg" alt="이벤트"></li>
+      </ul>
+      <div class="bullets">
+          <label for="slide1">&nbsp;</label>
+          <label for="slide2">&nbsp;</label>
+          <label for="slide3">&nbsp;</label>
+      </div>
+  </div>
+
+    
+    
+    
+    <!-- content_slider 끝-->
 
     
 
     <!-- content shop 시작-->
-    <div id="content_shop">
-
-     <div id="box">
+    <div class="content_shop">
+      <div class="box">
+        <a href="sub_indexshop.html">
       <img class="img" src="images/닭가슴살.jpg" alt="닭가슴살">
-      <h1 class="heading">Classic Chickenbreast!</h1>
+        </a>
+        <h2 class="heading">클래식 닭가슴살!</h2>
+      
       <div class="data">
-        <span class="date">2023-11-24</span>
-        <span class="user-id">$36.19</span>
+        <span class="user-id">50.000원</span>
       </div>
       <p class="texts">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        ※먹기만 한다고 살이 빠지진 않습니다※
       </p>
     </div>
     
 
-    <div id="box">
-      <img class="img" src="images/닭가슴살 소프트 .jpg" alt="소프트 닭가슴살">
-      <h1 class="heading">Soft Chickenbreast!</h1>
-      <div class="data">
-        <span class="date">23-11-24</span>
-        <span class="user-id">$36.19</span>
+    <div class="box">
+      <a href="sub_indexshop.html">
+        <img class="img" src="images/닭가슴살.jpg" alt="닭가슴살">
+      </a>
+      <h2 class="heading">소프트 닭가슴살!</h2>
+      <div class="data"> 
+        <span class="user-id">50.000원</span>
       </div>
       <p class="texts">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        ※먹기만 한다고 살이 빠지진 않습니다※
       </p>
     </div>
     
 
-    <div id="box">
-      <img class="img" src="images/닭가슴살 곡물.jpg" alt="곡물 닭가슴살">
-      <h1 class="heading">Grain Chickenbreast!</h1>
-      <div class="data">
-        <span class="date">2023-11-24</span>
-        <span class="user-id">$36.19</span>
+    <div class="box">
+      <a href="sub_indexshop.html">
+        <img class="img" src="images/닭가슴살.jpg" alt="닭가슴살">
+      </a>
+      <h2 class="heading">곡물 닭가슴살!</h2>
+      <div class="data">  
+        <span class="user-id">50.000원</span>
       </div>
       <p class="texts">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        ※먹기만 한다고 살이 빠지진 않습니다※
       </p>
     </div>
 
-    <div id="box">
-      <img class="img" src="images/닭가슴살 로제.jpg" alt="닭가슴살 로제">
-      <h1 class="heading">Rose Chickenbreast!</h1>
-      <div class="data">
-        <span class="date">2023-11-24</span>
-        <span class="user-id">$36.19</span>
+    <div class="box">
+      <a href="sub_indexshop.html">
+        <img class="img" src="images/닭가슴살.jpg" alt="닭가슴살">
+      </a>
+      <h2 class="heading">로제 닭가슴살!</h2>
+      <div class="data">      
+        <span class="user-id">50.000원</span>
       </div>
       <p class="texts">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        ※먹기만 한다고 살이 빠지진 않습니다※
       </p>
-    </div>           
+    </div>   
+
   </div>    
 
 
 
 
-  <div id="content_shop">
-  <div id="box">
-    <img class="img" src="images/샐러드.jpg" alt="샐러드">
-    <h1 class="heading">Fruit Salad!</h1>
-    <div class="data">
-      <span class="date">2023-11-24</span>
-      <span class="user-id">$36.19</span>
+  <div class="content_shop">
+  <div class="box">
+    <a href="sub_indexshop.html">
+      <img class="img" src="images/닭가슴살.jpg" alt="닭가슴살">
+    </a>
+    <h2 class="heading">과일 샐러드!</h2>
+    <div class="data"> 
+      <span class="user-id">50.000원</span>
     </div>
     <p class="texts">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      ※먹기만 한다고 살이 빠지진 않습니다※
     </p>
   </div>
 
-  <div id="box">
-    <img class="img" src="images/샐러드 그린.jpg" alt="그린 샐러드">
-    <h1 class="heading">Green Salad!</h1>
-    <div class="data">
-      <span class="date">2023-11-24</span>
-      <span class="user-id">$36.19</span>
+  <div class="box">
+    <a href="sub_indexshop.html">
+      <img class="img" src="images/닭가슴살.jpg" alt="닭가슴살">
+    </a>
+    <h2 class="heading">그린 샐러드!</h2>
+    <div class="data">    
+      <span class="user-id">50.000원</span>
     </div>
     <p class="texts">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      ※먹기만 한다고 살이 빠지진 않습니다※
     </p>
   </div>           
 
-  <div id="box">
-    <img class="img" src="images/샐러드 리코타.jpg" alt="리코타 샐러드">
-    <h1 class="heading">Ricotta Salad!</h1>
+  <div class="box">
+    <a href="sub_indexshop.html">
+      <img class="img" src="images/닭가슴살.jpg" alt="닭가슴살">
+    </a>
+    <h2 class="heading">리코타 샐러드!</h2>
     <div class="data">
-      <span class="date">2023-11-24</span>
-      <span class="user-id">$36.19</span>
+      <span class="user-id">50.000원</span>
     </div>
     <p class="texts">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      ※먹기만 한다고 살이 빠지진 않습니다※
     </p>
   </div>           
 
 
-  <div id="box">
-    <img class="img" src="images/샐러드 풀업.jpg" alt="풀업 샐러드">
-    <h1 class="heading">Pullup Salad!</h1>
+  <div class="box">
+    <a href="sub_indexshop.html">
+      <img class="img" src="images/닭가슴살.jpg" alt="닭가슴살">
+    </a>
+    <h2 class="heading">풀업 샐러드!</h2>
     <div class="data">
-      <span class="date">2023-11-24</span>
-      <span class="user-id">$36.19</span>
+      <span class="user-id">50.000원</span>
     </div>
     <p class="texts">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      ※먹기만 한다고 살이 빠지진 않습니다※
     </p>
   </div>           
 </div>    
@@ -172,129 +198,151 @@
 
 
 
-<div id="content_shop">
-  <div id="box">
-    <img class="img" src="images/소시지.jpg" alt="소시지">
-    <h1 class="heading">Delicious Sausage!</h1>
+<div class="content_shop">
+  <div class="box">
+    <a href="sub_indexshop.html">
+      <img class="img" src="images/닭가슴살.jpg" alt="닭가슴살">
+    </a>
+    <h2 class="heading">다이어트 소시지!</h2>
     <div class="data">
-      <span class="date">2023-11-24</span>
-      <span class="user-id">$36.19</span>
+      <span class="user-id">50.000원</span>
     </div>
     <p class="texts">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      ※먹기만 한다고 살이 빠지진 않습니다※
     </p>
   </div>
 
-  <div id="box">
-    <img class="img" src="images/스테이크.jpg" alt="스테이크">
-    <h1 class="heading">Delicious Steak!</h1>
+  <div class="box">
+    <a href="sub_indexshop.html">
+      <img class="img" src="images/닭가슴살.jpg" alt="닭가슴살">
+    </a>
+    <h2 class="heading">다이어트 스테이크!</h2>
     <div class="data">
-      <span class="date">2023-11-24</span>
-      <span class="user-id">$36.19</span>
+      <span class="user-id">50.000원</span>
     </div>
     <p class="texts">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      ※먹기만 한다고 살이 빠지진 않습니다※
     </p>
   </div>           
 
-  <div id="box">
-    <img class="img" src="images/소고기 함박 스테이크.jpg" alt="함박 스테이크">
-    <h1 class="heading">Hamburg Steak!</h1>
+  <div class="box">
+    <a href="sub_indexshop.html">
+      <img class="img" src="images/닭가슴살.jpg" alt="닭가슴살">
+    </a>
+    <h2 class="heading">다이어트 함박 스테이크!</h2>
     <div class="data">
-      <span class="date">2023-11-24</span>
-      <span class="user-id">$36.19</span>
+      <span class="user-id">50.000원</span>
     </div>
     <p class="texts">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      ※먹기만 한다고 살이 빠지진 않습니다※
     </p>
   </div>           
 
 
-  <div id="box">
-    <img class="img" src="images/소차돌.jpg" alt="소차돌">
-    <h1 class="heading">Beef brisket!</h1>
+  <div class="box">
+    <a href="sub_indexshop.html">
+      <img class="img" src="images/닭가슴살.jpg" alt="닭가슴살">
+    </a>
+    <h2 class="heading">다이어트 소차돌!</h2>
     <div class="data">
-      <span class="date">2023-11-24</span>
-      <span class="user-id">$36.19</span>
+      <span class="user-id">50.000원</span>
     </div>
     <p class="texts">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      ※먹기만 한다고 살이 빠지진 않습니다※
     </p>
-  </div>           
+  </div> 
+            
 </div>    
 
 
 
 
-<div id="content_shop">
-  <div id="box">
-    <img class="img" src="images/프로틴.jpg" alt="김종국 프로틴">
-    <h1 class="heading">jongkookKim protein!</h1>
-    <div class="data">
-      <span class="date">2023-11-24</span>
-      <span class="user-id">$36.19</span>
+<div class="content_shop">
+  <div class="box">
+    <a href="sub_indexshop.html">
+      <img class="img" src="images/닭가슴살.jpg" alt="닭가슴살">
+    </a>
+    <h2 class="heading">김종국 프로틴!</h2>
+    <div class="data">  
+      <span class="user-id">50.000원</span>
     </div>
     <p class="texts">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      ※먹기만 한다고 살이 빠지진 않습니다※
     </p>
   </div>
 
-  <div id="box">
-    <img class="img" src="images/프로틴 파우더.jpg" alt="프로틴 파우더">
-    <h1 class="heading">protein powder!</h1>
-    <div class="data">
-      <span class="date">2021-11-24</span>
-      <span class="user-id">$36.19</span>
+  <div class="box">
+    <a href="sub_indexshop.html">
+      <img class="img" src="images/닭가슴살.jpg" alt="닭가슴살">
+    </a>
+    <h2 class="heading">프로틴 파우더!</h2>
+    <div class="data"> 
+      <span class="user-id">50.000원</span>
     </div>
     <p class="texts">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      ※먹기만 한다고 살이 빠지진 않습니다※
     </p>
   </div>           
 
-  <div id="box">
-    <img class="img" src="images/프로틴 음료.jpg" alt="프로틴 음료">
-    <h1 class="heading">protein deinking!</h1>
-    <div class="data">
-      <span class="date">2021-11-24</span>
-      <span class="user-id">$36.19</span>
+  <div class="box">
+    <a href="sub_indexshop.html">
+      <img class="img" src="images/닭가슴살.jpg" alt="닭가슴살">
+    </a>
+    <h2 class="heading">프로틴 음료!</h2>
+    <div class="data"> 
+      <span class="user-id">50.000원</span>
     </div>
     <p class="texts">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      ※먹기만 한다고 살이 빠지진 않습니다※
     </p>
   </div>           
 
 
-  <div id="box">
-    <img class="img" src="images/우유.jpg" alt="우유">
-    <h1 class="heading">protein milk!</h1>
+  <div class="box">
+    <a href="sub_indexshop.html">
+      <img class="img" src="images/닭가슴살.jpg" alt="닭가슴살">
+    </a>
+    <h2 class="heading">건강 우유!</h2>
     <div class="data">
-      <span class="date">2021-11-24</span>
-      <span class="user-id">$36.19</span>
+      <span class="user-id">50.000원</span>
     </div>
     <p class="texts">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      ※먹기만 한다고 살이 빠지진 않습니다※
     </p>
   </div>  
 
-  </div>    
+</div>
+
+   
+  
   <!--content shop 끝-->
   
   
   <!--content button시작-->
   <div id="content_button">
-
+   
     <div class="wrap">
-       <button onclick="" type="button">BACK</button>
-       <button onclick="" type="button">1</button>
-       <button onclick="" type="button">2</button>
-       <button onclick="" type="button">3</button>
-       <button onclick="" type="button">NEXT</button>
+      
+       <a href="indexshop.html" class="button">BACK</a>
+       <a href="indexshop.html" class="button">1</a>
+       <a href="indexshop02.html" class="button">2</a>
+       <a href="indexshop03.html" class="button">3</a>
+       <a href="indexshop02.html" class="button">NEXT</a>
+    
     </div>
+
+   
     
   </div>
-  <!--content button끝-->
 
-  </div>  
+
+
+  
+  
+  
+  <!--content button끝-->
+    
+  </div>
   <!--content 끝-->
 
 
