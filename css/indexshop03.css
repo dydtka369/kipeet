@@ -223,41 +223,42 @@ h1 {
 
 
 /*--content button 시작--*/
-#content_button{
+.pageBtn {
+  height: 70px;
   position: relative;
-  width: 1300px;
-  height: 100px;
-  margin: 0 auto;
+  text-align: center;
   margin-top: 40px;
 }
-
-
-.wrap{
- margin-left: 10px;
+.pageBtn .ulBtn {
+  position: relative;
+  display: inline-block;
 }
-
-
-
-
-
-
-.wrap  a.button{
- display: inline-block;
- padding: 8px 10px;
- background-color:#fff;
- color: white;
- text-decoration: none;
- font-size: 16px;
- border: 1px solid #888383;
- color: #112233;
- border-radius: 5px;
- 
+.pageBtn .ulBtn li {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 27px;
+  border: 1px solid rgba(204,204,204,0);
 }
-
-
-.wrap a.button:hover {
-color: rgba(255, 255, 255, 0.85);
-box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
+.pageBtn .ulBtn li a {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  font-family: "pretendard";
+  color: #000;
+  font-size: 15px;
+}
+.pageBtn .ulBtn li.present_btn {
+  border: 1px solid rgba(204,204,204,1);
+}
+.pageBtn .ulBtn li.present_btn a {
+  color: #112233;
+  font-weight: 600;
+}
+.pageBtn .ulBtn li:hover:not(.previous_btn, .next_btn) {
+  border: 1px solid rgba(204,204,204,1);
 }
   /*--content button 끝--*/
   
