@@ -9,8 +9,9 @@
     position: relative;
     top: 0;
     left: 0;
-    font-size: 18px;
-    width: 270px;
+    font-size: 30px;
+    width: 800px;
+    height: 50px;
 }
 .l_title_box{
     position: relative;
@@ -21,7 +22,7 @@
 
 }
 .l_title{
-    font-size: 14px;
+    font-size: 15px;
     color: #5F5F5F;
 }
 .order_box1{
@@ -49,11 +50,13 @@
     width: 37px;
     height: 25px;
     padding: 5px 5px;
+    border-radius: 5px;
 }
 .num_count p{
     color: #7bb44f;
     font-size: 12px;
     font-weight: bold;
+    padding-left: 1px;
 }
 .order_box_t{
     position: relative;
@@ -62,10 +65,10 @@
 }
 #big_span{
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
 }
 #small_span{
-    font-size: 14px;
+    font-size: 15px;
 }
 #price{
     position: relative;
@@ -82,12 +85,12 @@
     padding-top: 30px;
 }
 .name>p{
-    font-size: 14px;
+    font-size: 15px;
 }
 .name>span{
     display: inline-block;
     position: relative;
-    font-size: 16px;
+    font-size: 15px;
     padding: 30px 25px;
 }
 .price_box{
@@ -101,7 +104,7 @@
 }
 .price_box>p{
     position: relative;
-    font-size: 18px;
+    font-size: 15px;
     bottom: 10px;
 }
 .big_em{

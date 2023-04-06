@@ -10,9 +10,8 @@ h1,h2,p,span,em,li,a,button{
     position: relative;
     width: 1300px;
     margin: 0 auto;
-    top: 50px;
-    overflow: hidden;
-    height: 2350px;
+    top: 100px;
+    height: 2050px;
 }
 .animation_canvas{
     position: relative; 
@@ -61,12 +60,12 @@ h1,h2,p,span,em,li,a,button{
 }
 .introduce>p{
     position: relative;
-    font-size: 14px;
+    font-size: 15px;
     top: 20px;
     padding-bottom: 20px;
 }
 .box_title{
-    font-size: 14px;
+    font-size: 15px;
     color: #A3A3A3;
     font-weight: bold;
 }
@@ -80,20 +79,20 @@ h1,h2,p,span,em,li,a,button{
     position: relative;   
     bottom: 20px;
     left: 30px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
 }
 .program li{
     position: relative;
     padding-top: 15px;
     left: 30px;
-    font-size: 14px;
+    font-size: 15px;
     list-style: disc;
 
 }
 .pro_title_last{
     position: relative;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     bottom: 25px;
 }
@@ -117,7 +116,7 @@ h1,h2,p,span,em,li,a,button{
     background-color: #e9e7e7;
 }
 .coach_name{
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     margin-top: 15px;
     font-weight: 600;
@@ -137,18 +136,18 @@ h1,h2,p,span,em,li,a,button{
 .offline{
     position: relative;
     width:635px;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 .offline>h2{
     color: #265F88;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 30px;
 }
 .offline>span{
     position: relative;
     color: #6b6b6b;
-    top: 10px;
-    font-size: 12px;
+    top: 15px;
+    font-size: 15px;
     font-weight: 400;
 }
 .order_box2{
@@ -190,12 +189,12 @@ h1,h2,p,span,em,li,a,button{
     position: relative;
     bottom: 10px;
     left: 400px;
-    font-size: 14px;
+    font-size: 15px;
 
 }
 .big_span{
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
 }
 .small_span{
     font-size: 14px;
@@ -212,7 +211,7 @@ h1,h2,p,span,em,li,a,button{
     right: 30px;
     bottom: 20px;
     color: #969696;
-    font-size: 14px;
+    font-size: 15px;
     transition: all 0.4s;
     font-weight: 600;
 }
@@ -222,12 +221,12 @@ h1,h2,p,span,em,li,a,button{
     font-weight: 700;
 }
 /*오른쪽 구역 시작*/
+
 .second_section{
-    position: absolute;
+    position: relative;
     width: 549px;
-    top: 120px;
-    right: 302px;
-    height: 1500px;
+    left: 750px;
+    bottom: 1950px;
 }
 .r_introduce{
     position: absolute;
@@ -237,7 +236,7 @@ h1,h2,p,span,em,li,a,button{
 }
 .r_introduce>h2{
     position: relative;
-    font-size: 18px;
+    font-size: 15px;
     color: #18A0FB;
     left: 10px;
     top: 20px;
@@ -252,7 +251,7 @@ h1,h2,p,span,em,li,a,button{
 .r_introduce>ul>li{
     position: relative;
     padding-top: 30px;
-    border-bottom: 1px solid rgb(173, 173, 173);
+    border-bottom: 1px solid rgb(216, 216, 216);
     padding-bottom: 30px;
 }
 .r_introduce>ul>li:last-child{
@@ -264,21 +263,21 @@ h1,h2,p,span,em,li,a,button{
     font-weight: bold;
 }
 .center_address{
-    font-size: 16px;
+    font-size: 15px;
 }
 .center_time{
-    font-size: 16px;
+    font-size: 15px;
     line-height: 25px;
 }
 .center_time span{
-    font-size: 12px;
+    font-size: 15px;
     color: #6b6b6b;
 }
 .center_call{
-    font-size: 18px;
+    font-size: 15px;
 }
 .center_call span{
-    font-size: 14px;
+    font-size: 15px;
     color: #6b6b6b;
 }
 .map_box{
@@ -289,7 +288,7 @@ h1,h2,p,span,em,li,a,button{
 }
 .map_box>h2{
     position: relative;
-    font-size: 18px;
+    font-size: 15px;
     color: #18A0FB;
     left: 10px;
 }
@@ -301,7 +300,7 @@ h1,h2,p,span,em,li,a,button{
 }
 .center_pic_box>h2{
     position: relative;
-    font-size: 18px;
+    font-size: 15px;
     color: #18A0FB;
     left: 10px;
 }
@@ -328,7 +327,7 @@ h1,h2,p,span,em,li,a,button{
     margin: 0 auto;
     height: 400px;
     border-top: 1px solid rgb(173, 173, 173);
-    margin-top: 100px;
+    margin-top: 200px;
     
 }
 .see_more>div{
@@ -356,14 +355,14 @@ h1,h2,p,span,em,li,a,button{
     border-radius: 50px;
     width: 159px;
     height: 57px;
-    font-size: 18px;
+    font-size: 15px;
     left: 30px;
     bottom: 50px;
     background-color: #265F88;
     text-align: center;
     border: none;
     font-weight: 700;
-    padding-top: 18px;
+    padding-top: 20px;
     transition: all 0.5s;
 }
 .see_more a:hover{
