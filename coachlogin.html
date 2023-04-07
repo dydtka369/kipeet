@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/footer.css">
     
     <script src="./js/jquery-3.6.3.min.js"></script>
-    <script src="./js/index.js"></script>
+    <script src="./js/login.js"></script>
     <title>투핏</title>
 </head>
 
@@ -51,24 +51,26 @@
             <p>
                 키핏 코치 전용 로그인
             </p>
-            <div class="form">
-                <label class="email">이메일</label>
-                <input id="inpud_id" type="text" class="form_id" placeholder="이메일을 입력해주세요">
+            <form name="frmLogin">
+                <div class="form">
+                    <label class="email">이메일</label>
+                    <input id="inpud_id" type="text" class="user_id" name="user_id" placeholder="이메일을 입력해주세요">
+                </div>
+                <div class="form_pw">
+                    <label class="passward">비밀번호</label>
+                    <input id="inpud_pw" type="password" class="user_pwd" name="user_pwd" placeholder="비밀번호 입력해주세요">
+                </div>
+                <div class="check">
+                    <input type="checkbox" class="chk" id="recheck">
+                    <label class="chke" for="recheck">로그인 기억하기</label>
+                </div>
+                  <button class="login_button" id="btn_log" onclick="loginCheck()">로그인</button>
+               
+                <div class="forget_pw">
+                    <a href="./searchpwd.html">비밀번호를 잊으셨나요?</a>
             </div>
-            <div class="form_pw">
-                <label class="passward">비밀번호</label>
-                <input id="inpud_pw" type="password" class="form_pw" placeholder="비밀번호 입력해주세요">
             </div>
-            <div class="check">
-                <input type="checkbox" class="chk" id="recheck">
-                <label class="chke" for="recheck">로그인 기억하기</label>
-            </div>
-           <a href="#"><button class="login_button" id="btn_log">로그인</button></a>
-           <a href="./kitresister.html"><button class="login_button" id="btn_log">회원가입</button></a>
-            <div class="forget_pw">
-                <a href="#">비밀번호를 잊으셨나요?</a>
-        </div>
-        </div>
+        </form>
     </div>
     
     <!-- footer 시작 -->

@@ -18,21 +18,21 @@ legend{
 }
 .secSection_1 img{
     position: absolute;
-    width: 28px;
-    height: 28px;
+    width: 36px;
+    height: 36px;
     text-align: center;
-    left: 90px;
-    bottom: 75px;
+    left: 130px;
+    bottom: 65px;
 }
 .secSection_1 h2{
     position: absolute;
-    font-size: 24px;
-    font-weight: 800;
+    font-size: 30px;
+    font-weight: 400;
 }
 .secSection_1 p{
     position: absolute;
-    font-size: 14px;
-    top: 35px;
+    font-size: 15px;
+    top: 45px;
     
 }
 .secSection_1 span{
@@ -66,7 +66,7 @@ legend{
     bottom: 0;
     right: 0;
     border-radius: 50px;
-    font-size: 18px;
+    font-size: 15px;
     transition: all 0.3s;
 }
 .secSection_1 button:hover{
@@ -83,7 +83,7 @@ legend{
 .secSection_2 h2{
     position: absolute;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
 }
 .row{
     position: absolute;
@@ -91,6 +91,7 @@ legend{
     width: 1300px;
     height: 140px;
     top: 100px;
+    font-size: 15px;
 }
 .row>div{
     margin-bottom: 70px;
@@ -129,7 +130,7 @@ legend{
     width: 1300px;
     height: 80px;
     padding-top: 35px;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 20px;
 }
 .row3{
@@ -138,6 +139,7 @@ legend{
     width: 1300px;
     height: 140px;
     top: 100px;
+    font-size: 15px;
 }
 .row3>div a{
     width: 140px;
@@ -165,31 +167,6 @@ legend{
 .selected:visited{
     color: #fff;
 }
-.row4{
-    position: absolute;
-    text-align: center;
-    width: 1300px;
-    height: 140px;
-    top: 150px;
-}
-
-.row4>div a{
-    width: 140px;
-    height: 60px;
-    float: left;
-    border: 1px solid #cccccc;
-    margin-right: 10px;
-    border-radius: 5px;
-    transition: all 0.3s;
-    color: #5F5F5F;
-    padding-top: 20px;
-}
-.row4>div a:hover{
-    background-color: #174c88;
-    color: #fff;
-    border: #174c88;
-    font-weight: 600;
-}
 .all_center{
     position: relative;
     width: 1300px;
@@ -201,22 +178,23 @@ legend{
 }
 .all_center_title{
     margin-top: 50px;
+    height: 50px;
 }
 .all_center_title>h2{
     position: absolute;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 500;
 }
 .all_center_title>h2>span{
     color: #18A0FB;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 700;
 }
 .all_center_title>p{
     position: relative;
-    font-size: 14px;
+    font-size: 15px;
     color: #5F5F5F;
-    top: 28px;
+    top: 40px;
     font-weight: 500;
 }
 .all_center_title>p>span{
@@ -226,175 +204,142 @@ legend{
 }
 .secSections{
     position: relative;
-    width: 415px;
-    height: 453px;
-    border: 1px solid #eee;
-    margin-top: 50px;
-    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    left: 0;
+    top: 50px;
+    width: 310px;
+    height: 421px;
+    margin-bottom: 50px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    margin-right: 14px;
     float: left;
-    margin-left: 25px;
+    font-size: 15px;
 }
-
-.center_recommend{
-    position: absolute;
-}
-.secSection_3{
-    margin-left: 0;
-}
-.secSection_6{
-    margin-left: 0;
-}
-
-.center_recommend>li{
+.secSections li{
     border-bottom: 1px solid #cccccc;
-    line-height: 20px;
-    padding: 20px 0 13px 20px;
 }
-.center_recommend>li:nth-last-child(2){
-    border-style: none;
-}
-.center_recommend>li>p{
-    font-size: 12px;
-    font-weight: 300;
-}
-.center_recommend h3{
-    color: #18A0FB;
-    font-size: 20px;
-    font-weight: 800;
-}
-.center_recommend span{
-    color: #18A0FB;
-    font-size: 16px;
-}
-.center_recommend a{
-    color: black;
-}
-.center_recommend a:hover{
-    color: #18A0FB;
-}
-.center_img{
-    width: 414px;
-    height: 168px;
+.secSections li:nth-child(1){
+    border: none;
     overflow: hidden;
 }
-
-.time>span{
-    position: absolute;
-    right: 55px;
-    font-weight: 400;
-
+.center_img{
+    width: 310px;
+    height: 158px;
+    overflow: hidden;
 }
 .center_img img{
     transition: all 0.5s;
 }
 .center_img img:hover{
-    width: 500px;
-    height: 300px;
+    width: 408px;
+    height: 200px;
 }
 
-.center_arrow{
+.secSections li:nth-child(2){
+    height: 100px;
+    line-height: 20px;
+    padding: 10px 10px 10px 15px;
+}
+.secSections li:nth-child(2) span{
+    color: #18A0FB;
+}
+.secSections li:nth-child(3){
+    height: 50px;
+    padding: 15px;
+}
+.secSections li:nth-child(3) span{
+    position: relative;
+    left: 55px;
+    color: #18A0FB;
+}
+.secSections li:nth-child(4){
+    height: 50px;
+    padding: 10px;
+}
+.sns_img2{
     position: absolute;
-    width: 415px;
-    height: 70px;
-    left: 0;
-    top: 380px;
-    transition: all 0.5s;
+    right: 20px;
+
 }
-.center_arrow:hover{
-    left: 30px;
-}
-.center_arrow img{
+.sns_line span{
     position: relative;
-    left: 320px;
-    top: 20px;
+    top: 5px;
+    left: 5px;
 }
-
-.sns_line>span{position: relative; bottom: 10px; color: #000;font-weight: 400;font-size: 16px;}
-.sns_line a{
-    position: relative;
-    left: 200px;
+.sns_img1{
+    position: absolute;
+    right: 60px;
+    
 }
-
-
-
-  /* Pagination */
-  
-  .pagination {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 3px;
-    background-color: #fff;
-    border: 1px solid #cccccc;
-    margin-bottom: 50px;
-    width: 1300px;
-    margin: 0 auto;
-  }
-  
-  .pagination a,
-  .pagination button {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding: 7px 12px;
-    font-size: 13px;
-    font-weight: 500;
-    color: #0366d6;
-    text-decoration: none;
-  }
-  
-  .pagination > a:first-child {
-    border-radius: 3px 0 0 3px;
-  }
-  
-  .pagination > a:last-child {
-    border-radius: 0 3px 3px 0;
-  }
-  
-  .pagination ol button {
-    background-color: #fff;
+.secSections li:nth-child(5){
+    height: 60px;
     border: none;
-  }
+    cursor: pointer;
+}
+
+.secSections li:nth-child(5):hover {
+    background-color: #ecf9ff; 
+}
   
-  .pagination ol {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    list-style-type: none;
-    background-color: #fff;
-  }
+.secSections li:nth-child(5) .center_arrow img {
+    position: relative;
+    top: 15px;
+    left: 230px;
+    margin-left: 0; 
+    transition: margin-left 0.5s ease; 
+}
   
-  .pagination li {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 32px;
-    border-right: 1px solid #cccccc;
-    font-size: 13px;
-    font-weight: 500;
-    color: #0366d6;
-  }
-  
-  .pagination li.disabled {
-    background-color: #fafbfc;
-  }
-  
-  .pagination li.current-page {
-    border-color: #0366d6;
-    background-color: #0366d6;
-  }
-  
-  .pagination li.current-page a {
-    color: #fff;
-  }
-  
-  .pagination *[disabled],
-  .pagination .disabled {
-    color: #b2b9c2;
-    background-color: #fafbfc;
-  }
-/**/
+.secSections li:nth-child(5):hover .center_arrow img {
+    margin-left: 30px; 
+}
+.center_recommend a{
+    color: black;
+    font-weight: 800;
+}
+.center_recommend a:hover{
+    color: #18A0FB;
+}
+
+
+/*pageButton*/
+
+
+.pageBtn {
+    position: relative;
+    text-align: center;
+}
+.pageBtn .ulBtn {
+    position: relative;
+    display: inline-block;
+}
+.pageBtn .ulBtn li {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 27px;
+    border: 1px solid rgba(204,204,204,0);
+}
+.pageBtn .ulBtn li a {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-family: "pretendard";
+    color: #000;
+    font-size: 15px;
+}
+.pageBtn .ulBtn li.present_btn {
+    border: 1px solid rgba(204,204,204,1);
+}
+.pageBtn .ulBtn li.present_btn a {
+    color: #112233;
+    font-weight: 600;
+}
+.pageBtn .ulBtn li:hover:not(.previous_btn, .next_btn) {
+    border: 1px solid rgba(204,204,204,1);
+}
+
+
 .see_more{
     position: relative;
     width: 1300px;
@@ -408,7 +353,8 @@ legend{
     position: relative;
     width: 630px;
     height: 217px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;    float: left;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    float: left;
     top: 80px;
     border-radius: 3px;
     transition: all 0.5s;
@@ -417,7 +363,7 @@ legend{
     background-color: #EFEFEF;
 }
 .see_more p{
-    font-size: 18px;
+    font-size: 20px;
     padding: 30px 0 0 30px;
     line-height: 25px;
     font-weight: 500;
@@ -429,14 +375,14 @@ legend{
     border-radius: 50px;
     width: 159px;
     height: 57px;
-    font-size: 18px;
+    font-size: 15px;
     left: 30px;
     bottom: 50px;
     background-color: #265F88;
     text-align: center;
     border: none;
     font-weight: 700;
-    padding-top: 18px;
+    padding-top: 20px;
     transition: all 0.5s;
 }
 .see_more a:hover{

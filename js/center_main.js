@@ -102,4 +102,10 @@ window.onload=function(){
         });
       });
     // 지역 클릭 영역 끝
+
+    const gogo = document.querySelector('.gogogo');
+
+    gogo.addEventListener('click', function() {
+    window.location.href = "more_center.html";
+  });
 };

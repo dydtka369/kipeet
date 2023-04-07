@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "NotoSansR";
+    src: url("../font/Noto_Sans/NotoSans-Regular.ttf") format("truetype");
+}
+
 #content {
     width: 100%;
 }
@@ -9,7 +14,7 @@
 .headtit {
     color: #112233;
     font-size: 52px;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 #content_tit p span {
     display: inline-block;
@@ -159,7 +164,7 @@
 }
 .fqa_contant {
     width: 1300px;
-    height: 500px;
+    height: 350px;
     margin: auto;
 }
 .fqa_contant h4{
