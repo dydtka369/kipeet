@@ -22,7 +22,7 @@ h2{
     width: 120px;
     height:  70px;
     text-align: center;
-    font-size: 30pt;
+    font-size: 30px;
     line-height: 70px;
 }
 #tip .bg{
@@ -30,7 +30,7 @@ h2{
     height: 450px;
     border-radius: 3px;
     position: relative;
-    margin-top: 40px;
+    margin-top: 50px;
     background: url("./img/bg.jpg") repeat-x;
     background-size: auto 100%;
 }
@@ -59,7 +59,7 @@ h2{
     line-height: 70px;
     right: 20px;
     color: #ffff;
-    font-size: 22pt;
+    font-size: 17px;
 }
 #tip .tip_main{
     display: none;
@@ -68,7 +68,7 @@ h2{
     margin: 0 auto;
     position: relative;
     top: -150px;
-    background-color: #cdcdcd;
+    background-color: #f3f3f3;
     opacity: 0.95;
     border-radius: 2px;
     padding-bottom: 30px;
@@ -93,7 +93,7 @@ h2{
     width: 360px;
     height: 65px;
     line-height: 65px;
-    font-size: 16pt;
+    font-size: 15px;
     padding-left: 10px;
     color: #3a3a3a;
 }
@@ -142,7 +142,7 @@ p#like_p{
     width: 400px;
     height: 50px;
     left: 32%;
-    font-size: 16pt;
+    font-size: 16px;
     border-radius: 3px;
     background-image: url("./img/search_icon.png") no-repeat;
 }
