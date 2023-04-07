@@ -10,6 +10,7 @@
     width: 40%;
 }
 
+
 .main h4{ margin: 60px auto;
 text-align: center; font-size: 2em; }
 
@@ -125,7 +126,7 @@ input[type=submit]:hover,input[type=boutton]:hover {
   margin-bottom: 30px;
 }
 .content_inner:hover {
-  border: 1px solid #000;
+  border: 1px solid #123;
   border-radius: 4px;
   transition: all .5s;
 }

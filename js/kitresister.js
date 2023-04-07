@@ -43,7 +43,7 @@ function ck_pwd2(){
       MsgPwck.className='error'
       MsgPwck.innerHTML="비밀번호가 일치하지 않습니다."
       pwd_ck.focus()
-      return false;
+  
   } else{
       MsgPwck.className='vaild'
       MsgPwck.innerHTML="ok"
