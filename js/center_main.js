@@ -103,9 +103,12 @@ window.onload=function(){
       });
     // 지역 클릭 영역 끝
 
-    const gogo = document.querySelector('.gogogo');
+    const gogos = document.querySelectorAll('.gogogo');
 
-    gogo.addEventListener('click', function() {
-    window.location.href = "more_center.html";
-  });
+    gogos.forEach(gogo => {
+      gogo.addEventListener('click', function() {
+        window.location.href = "more_center.html";
+      });
+    });
+
 };
