@@ -69,8 +69,8 @@ window.onload=function(){
      
       $('.col_local a').eq(4).on('click', function() {
         $('.col_local2 a').each(function(index) {
-          var localText = ['전체', '반곡동', '소담동', '보람동', '대평동'];
-          if (index <= 4) { 
+          var localText = ['전체'];
+          if (index <= 0) { 
             $(this).text(localText[index]);
             $(this).show();
           } else {
