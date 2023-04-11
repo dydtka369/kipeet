@@ -77,10 +77,10 @@ h1,h2,p,span,em,li,a,button{
 }
 .pro_title{
     position: relative;   
-    bottom: 20px;
-    left: 30px;
+    bottom: 35px;
     font-size: 15px;
     font-weight: bold;
+    left: 10px;
 }
 .program li{
     position: relative;
@@ -88,6 +88,10 @@ h1,h2,p,span,em,li,a,button{
     left: 30px;
     font-size: 15px;
     list-style: disc;
+
+}
+.program li:first-child{
+    list-style: none;
 
 }
 .pro_title_last{

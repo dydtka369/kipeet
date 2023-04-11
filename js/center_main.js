@@ -69,8 +69,8 @@ window.onload=function(){
      
       $('.col_local a').eq(4).on('click', function() {
         $('.col_local2 a').each(function(index) {
-          var localText = ['전체', '반곡동', '소담동', '보람동', '대평동'];
-          if (index <= 4) { 
+          var localText = ['전체'];
+          if (index <= 0) { 
             $(this).text(localText[index]);
             $(this).show();
           } else {
@@ -103,9 +103,12 @@ window.onload=function(){
       });
     // 지역 클릭 영역 끝
 
-    const gogo = document.querySelector('.gogogo');
+    const gogos = document.querySelectorAll('.gogogo');
 
-    gogo.addEventListener('click', function() {
-    window.location.href = "more_center.html";
-  });
+    gogos.forEach(gogo => {
+      gogo.addEventListener('click', function() {
+        window.location.href = "more_center.html";
+      });
+    });
+
 };
