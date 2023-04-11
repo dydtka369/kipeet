@@ -13,19 +13,15 @@ a{
     width:1300px;
     margin: 0 auto;
     position: relative;
-    margin-top: 70px;
+    margin-top: 50px;
 }
-h2{
-    position: relative;
-    margin: 0 auto;
-    border-bottom: 1px solid #354F68;
-    width: 120px;
-    height:  70px;
+.bg h2{
     text-align: center;
-    font-size: 30px;
-    line-height: 70px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 50px;
 }
-#tip .bg{
+/*#tip .bg{
     width: 100%;
     height: 450px;
     border-radius: 3px;
@@ -33,7 +29,7 @@ h2{
     margin-top: 50px;
     background: url("./img/bg.jpg") repeat-x;
     background-size: auto 100%;
-}
+}*/
 
 /*#tip ul li.a{
     background-color: #354F68;
@@ -42,7 +38,7 @@ h2{
     color: #ffff;
 }*/
 
-#tip .hd{
+/*#tip .hd{
     position: relative;
     width: 88%;
     height: 70px;
@@ -52,14 +48,14 @@ h2{
     top: -150px;
     z-index: 10;
     margin: 0 auto;
-}
+}*/
 
 #tip .tip_main{
-    width: 82%;
+    width: 100%;
     height: 70%;
     margin: 0 auto;
     position: relative;
-    top: -150px;
+    margin-top: 10px;
     background-color: #f3f3f3;
     opacity: 0.95;
     border-radius: 2px;
@@ -68,6 +64,7 @@ h2{
 }
 
 h3{
+    position: relative;
     text-align: center;
     font-size: 22px;
     height: 35px;
@@ -83,15 +80,18 @@ h3{
 }
 
 #id{
+    position: relative;
     font-size: 16px;
     height: 17px;
     line-height: 17px;
     margin: 10px;
+    top:10px;
 }
 
 .date{
     position: absolute;
-    top: -3px;
+    height: 20px;
+    top: 10px;
     left: 80px;
     font-size: 15px;
     border: none;
@@ -99,7 +99,7 @@ h3{
 
 #modify{
     position: absolute;
-    top:0;
+    top: 10px;
     right:0;
     font-size: 17px;
     margin-right: 10px;
@@ -107,9 +107,9 @@ h3{
 
 #tip_news{
     position: relative;
-    margin-top: 10px;
+    margin-top: 20px;
     width: 100%;
-    height: 600px;
+    height: 1000px;
     border-top: 1px solid #3a3a3a;
     border-bottom: 1px solid #3a3a3a;
 }
@@ -126,7 +126,7 @@ h3{
     position: relative;
     width:80px;
     height: 30px;
-    left: 820px;
+    left: 1020px;
     top: 5px;
     font-size: 15px;
 }
