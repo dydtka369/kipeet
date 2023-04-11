@@ -59,9 +59,10 @@ a{
     position: absolute;
     height: 70px;
     line-height: 70px;
-    right: 100px;
-    color: #ffff;
+    left: 1075px;
+    color: #3a3a3a;
     font-size: 17px;
+    top: 1095px;
 }
 #tip .tip_main{
     display: none;
