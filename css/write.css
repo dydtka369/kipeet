@@ -13,19 +13,9 @@ a{
     width:1300px;
     margin: 0 auto;
     position: relative;
-    margin-top: 70px;
 }
-h2{
-    position: relative;
-    margin: 0 auto;
-    border-bottom: 1px solid #354F68;
-    width: 220px;
-    height:  70px;
-    text-align: center;
-    font-size: 30px;
-    line-height: 70px;
-}
-#tip .bg{
+
+/*#tip .bg{
     width: 100%;
     height: 450px;
     border-radius: 3px;
@@ -33,6 +23,14 @@ h2{
     margin-top: 50px;
     background: url("./img/bg.jpg") repeat-x;
     background-size: auto 100%;
+}*/
+
+.bg h3{
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    font-size: 50px;
+    margin-top: 50px;
 }
 
 /*#tip ul li.a{
@@ -42,7 +40,7 @@ h2{
     color: #ffff;
 }*/
 
-#tip .hd{
+/*#tip .hd{
     position: relative;
     width: 88%;
     height: 70px;
@@ -52,14 +50,14 @@ h2{
     top: -150px;
     z-index: 10;
     margin: 0 auto;
-}
+}*/
 
 #tip .tip_main{
-    width: 82%;
-    height: 70%;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
     position: relative;
-    top: -150px;
+    margin-top: 10px;
     background-color: #f3f3f3;
     opacity: 0.95;
     border-radius: 2px;
@@ -69,7 +67,7 @@ h2{
 
 .f_option{
     margin: 0 auto;
-    left: 140px;
+    left: 90px;
     position: relative;
     width:58%;
     margin-bottom: 10px;
@@ -117,8 +115,8 @@ td{
     line-height: 50px;
 }
 .content_l{
-    height: 500px;
-    line-height: 500px;
+    height: 600px;
+    line-height: 600px;
 }
 
 .put{
@@ -129,20 +127,20 @@ td{
 input{
     position: absolute;
     right: 0;
-    width: 630px;
+    width: 840px;
     height: 50px;
     right: 0;
 }
 .file{
-    width: 630px;
+    width: 838px;
     height: 50px;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 55px;
 }
 textarea{
     position: absolute;
-    width: 630px;
-    height: 500px;
+    width: 840px;
+    height: 600px;
     right: 1px;
 }
 
@@ -151,5 +149,6 @@ textarea{
     width: 80px;
     height : 40px;
     font-size: 17px;
-    right: 0px;
+    right: 5px;
+    top: 770px;
 }

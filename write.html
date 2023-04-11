@@ -53,16 +53,18 @@
         <div id="tip">
             <!--<h2>T I P 남기기</h2>-->
             <div class="bg">
-                <img class="tip_bg" src="" alt="">
+                <h3>[ Today's Fitness ]</h3>
             </div>
             <div class="hd">
             </div>
             <div class="tip_main">
                 <div class="f_option">
                     <select id="font">
-                        <option>나눔고딕</option>
+                        <option>맑은고딕</option>
                         <option>함초롱바탕</option>
                         <option>오렌지체</option>
+                        <option>감귤체</option>
+                        <option>초콜릿체</option>
                     </select>
                     <select id="font_size">
                         <option>10</option>
@@ -72,13 +74,15 @@
                         <option>14</option>
                         <option>15</option>
                         <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
                     </select>
                     <img src="img/bold.png" alt="bold" onclick="fn_bold">
                     <img src="img/lay.png" alt="lay" onclick="fn_lay">
                     <img src="img/line.png" alt="line" onclick="fn_line">
                     <img class="del" src="img/del.png" alt="del" onclick="fn_del">
                 </div>
-                <form action="my_write" method="get">
+                <form action="my_write" method="post">
                     <table>
                         <tr>
                             <td class="label">제목</td>
@@ -99,7 +103,6 @@
                     </table>
                     <input type="submit" value="등록" class="submit">
                 </form>
-                
             </div>
         </div>
     </div>
