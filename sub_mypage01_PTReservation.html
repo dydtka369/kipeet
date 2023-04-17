@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/sub_mypage01.css">
+    <link rel="stylesheet" href="./css/sub_mypage01_PTReservation.css">
     <link rel="stylesheet" href="./css/footer.css">
     <script src="./js/jquery-3.6.3.min.js"></script>
     <script src="./js/index.js"></script>
@@ -134,21 +134,52 @@
     <!-- header 종료 -->
 
     <div id="content">
-        <section class="mypage_head">
-            <h1>MY PAGE</h1>
-            <ul>
-                <li class="present_page"><a href="sub_mypage01.html">예약내역</a></li>
-                <li><a href="sub_mypage02.html">결제내역</a></li>
-                <li><a href="sub_mypage03.html">프로필</a></li>
-            </ul>
+        <section class="ptReserve_head">
+            <h1>PT 예약</h1>
         </section>
-        <section class="mypage_reservation calendar_info">
-            <h2>피트니스 캘린더</h2>
-            <p><a href="./sub_mypage01_PTReservation.html" class="reservation_first">PT예약하기 &gt;</a></p>
-            <p><a href="./sub_mypage01_PTCancel.html" class="reservation_second">PT예약 취소하기 &gt;</a></p>
-        </section>
-        <section class="mypage_calendar calendar_info">
+        <section class="ptReserve_date">
+            <h2>날짜 선택</h2>
             <div id="calendar"></div>
+            <ul>
+                <li>
+                    <div class="chooseColor chooseDisable"></div>
+                    <span>예약불가</span>
+                </li>
+                <li>
+                    <div class="chooseColor chooseToday"></div>
+                    <span>오늘</span>
+                </li>
+                <li>
+                    <div class="chooseColor chooseDay"></div>
+                    <span>선택</span>
+                </li>
+            </ul>
+            <p>※ 예약시간 24시간 전부터 예약이 불가합니다.</p>
+        </section>
+        <section class="ptReserve_time">
+            <h2>시간 선택</h2>
+            <form action="" method="get" class="chooseTime">
+                <input type="radio" id="am5" name="rvTime" class="disabled" disabled><label for="am5">5시</label>
+                <input type="radio" id="am6" name="rvTime" class="disabled" disabled><label for="am6">6시</label>
+                <input type="radio" id="am7" name="rvTime" class="disabled" disabled><label for="am7">7시</label>
+                <input type="radio" id="am8" name="rvTime"><label for="am8">8시</label>
+                <input type="radio" id="am9" name="rvTime"><label for="am9">9시</label>
+                <input type="radio" id="am10" name="rvTime"><label for="am10">10시</label>
+                <input type="radio" id="am11" name="rvTime"><label for="am11">11시</label>
+                <input type="radio" id="pm12" name="rvTime"><label for="pm12">12시</label>
+                <input type="radio" id="pm13" name="rvTime"><label for="pm13">13시</label>
+                <input type="radio" id="pm14" name="rvTime"><label for="pm14">14시</label>
+                <input type="radio" id="pm15" name="rvTime"><label for="pm15">15시</label>
+                <input type="radio" id="pm16" name="rvTime"><label for="pm16">16시</label>
+                <input type="radio" id="pm17" name="rvTime"><label for="pm17">17시</label>
+                <input type="radio" id="pm18" name="rvTime"><label for="pm18">18시</label>
+                <input type="radio" id="pm19" name="rvTime"><label for="pm19">19시</label>
+                <input type="radio" id="pm20" name="rvTime"><label for="pm20">20시</label>
+                <input type="radio" id="pm21" name="rvTime"><label for="pm21">21시</label>
+                <input type="radio" id="pm22" name="rvTime"><label for="pm22">22시</label>
+            </form>
+            <p class="rvChoose">PT 예약일 : 2023년 1월 24일 오후 7시</p>
+            <button>예약</button>
         </section>
     </div>
        
